@@ -19,7 +19,10 @@ def choose_target_language() -> Tuple[str, str]:
 
 
 def _materials_block(materials: List[Material]) -> str:
-    material_items = [f"- **{item['tag']}**：{item['text']}（{item['source']}）" for item in materials]
+    material_items = [
+        f"- **{html.escape(item['tag'])}**：{html.escape(item['text'])}（{html.escape(item['source'])}）"
+        for item in materials
+    ]
     return "\n".join(material_items)
 
 

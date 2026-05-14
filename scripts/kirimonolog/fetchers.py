@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import random
+import urllib.error
 import urllib.parse
 import urllib.request
 from typing import Dict, List
@@ -73,7 +74,7 @@ def gather_daily_materials(max_items: int = 4) -> List[Material]:
             normalized = parser(payload)
             if normalized:
                 items.append(normalized)
-        except Exception:
+        except (json.JSONDecodeError, urllib.error.URLError, TimeoutError, ValueError):
             continue
 
     if not items:

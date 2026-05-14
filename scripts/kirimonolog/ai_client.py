@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import logging
+import urllib.error
 import urllib.parse
 import urllib.request
 from typing import Dict, List
@@ -13,6 +15,7 @@ from kirimonolog.config import POLLINATIONS_QUERY_PARAMS, POLLINATIONS_TEXT_API
 Material = Dict[str, str]
 ALLOWED_AI_HOSTS = {"text.pollinations.ai", "api.mymemory.translated.net"}
 MAX_TRANSLATION_LENGTH = 450
+LOGGER = logging.getLogger(__name__)
 
 
 def _request_text(url: str, timeout: int = 30) -> str:
@@ -48,8 +51,8 @@ def generate_chinese_log(materials: List[Material], date_text: str, persona_name
         text = _pollinations(prompt)
         if text:
             return text
-    except Exception:
-        pass
+    except (urllib.error.URLError, TimeoutError, ValueError, UnicodeDecodeError) as err:
+        LOGGER.warning("Pollinations generation failed: %s", err)
 
     first = _strip_tail_punctuation(materials[0]["text"]) if materials else "街角吹来的晚风"
     second = _strip_tail_punctuation(materials[1]["text"]) if len(materials) > 1 else "手心里慢慢安静下来的温度"
@@ -71,12 +74,12 @@ def translate_text(chinese_text: str, target_code: str, target_name: str) -> str
         translated = _pollinations(prompt)
         if translated:
             return translated
-    except Exception:
-        pass
+    except (urllib.error.URLError, TimeoutError, ValueError, UnicodeDecodeError) as err:
+        LOGGER.warning("Pollinations translation failed: %s", err)
 
     try:
         if len(chinese_text) > MAX_TRANSLATION_LENGTH:
-            print(f"[warn] Translation input truncated to {MAX_TRANSLATION_LENGTH} chars for fallback API.")
+            LOGGER.warning("Translation input truncated to %s chars for fallback API.", MAX_TRANSLATION_LENGTH)
         params = urllib.parse.urlencode({"q": chinese_text[:MAX_TRANSLATION_LENGTH], "langpair": f"zh-CN|{target_code}"})
         url = f"https://api.mymemory.translated.net/get?{params}"
         raw = _request_text(url)
@@ -84,7 +87,7 @@ def translate_text(chinese_text: str, target_code: str, target_name: str) -> str
         text = data.get("responseData", {}).get("translatedText", "").strip()
         if text:
             return text
-    except Exception:
-        pass
+    except (json.JSONDecodeError, urllib.error.URLError, TimeoutError, ValueError, UnicodeDecodeError) as err:
+        LOGGER.warning("MyMemory fallback translation failed: %s", err)
 
     return "Translation temporarily unavailable today, but the moonlight is still gentle."
