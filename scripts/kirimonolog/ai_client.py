@@ -30,6 +30,10 @@ def _pollinations(prompt: str) -> str:
     return _request_text(url)
 
 
+def _strip_tail_punctuation(text: str) -> str:
+    return text.rstrip("。！？.!? ")
+
+
 def generate_chinese_log(materials: List[Material], date_text: str, persona_name: str, persona_profile: dict) -> str:
     bullets = "\n".join(f"- [{m['tag']}] {m['text']}（来源: {m['source']}）" for m in materials)
     prompt = (
@@ -46,11 +50,11 @@ def generate_chinese_log(materials: List[Material], date_text: str, persona_name
     except Exception:
         pass
 
-    first = materials[0]["text"] if materials else "街角吹来的晚风"
-    second = materials[1]["text"] if len(materials) > 1 else "手心里慢慢安静下来的温度"
+    first = _strip_tail_punctuation(materials[0]["text"]) if materials else "街角吹来的晚风"
+    second = _strip_tail_punctuation(materials[1]["text"]) if len(materials) > 1 else "手心里慢慢安静下来的温度"
     return (
-        f"今天是{date_text}。我把心情轻轻放慢，先想到“{first}”，"
-        f"又被“{second}”温柔地提醒。日子并不总是发光，"
+        f"今天是{date_text}。我把心情轻轻放慢，先想到「{first}」，"
+        f"又被「{second}」温柔地提醒。日子并不总是发光，"
         "但我愿意把每一件小事认真收藏，像把细碎星光放进抽屉，等夜深时再慢慢看。"
     )
 

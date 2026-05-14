@@ -19,8 +19,8 @@ def choose_target_language() -> Tuple[str, str]:
 
 
 def _materials_block(materials: List[Material]) -> str:
-    lines = [f"- **{item['tag']}**：{item['text']}（{item['source']}）" for item in materials]
-    return "\n".join(lines)
+    material_items = [f"- **{item['tag']}**：{item['text']}（{item['source']}）" for item in materials]
+    return "\n".join(material_items)
 
 
 def _to_html_lines(text: str) -> str:
