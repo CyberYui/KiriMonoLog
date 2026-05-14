@@ -1,0 +1,1 @@
+"""KiriMonoLog core package."""
