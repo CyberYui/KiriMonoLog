@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import random
+import urllib.parse
 import urllib.request
 from typing import Dict, List
 
@@ -11,9 +12,18 @@ from kirimonolog.config import FALLBACK_MATERIALS, SOURCE_ENDPOINTS
 
 
 Material = Dict[str, str]
+ALLOWED_SOURCE_HOSTS = {
+    "v1.hitokoto.cn",
+    "api.quotable.io",
+    "api.adviceslip.com",
+    "uselessfacts.jsph.pl",
+}
 
 
 def _read_json(url: str, timeout: int = 12) -> dict:
+    host = urllib.parse.urlparse(url).netloc
+    if host not in ALLOWED_SOURCE_HOSTS:
+        raise ValueError(f"Disallowed source host: {host}")
     request = urllib.request.Request(url, headers={"User-Agent": "KiriMonoLog/1.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:  # nosec B310
         data = response.read().decode("utf-8", errors="replace")

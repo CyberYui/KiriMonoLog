@@ -11,9 +11,14 @@ from kirimonolog.config import POLLINATIONS_TEXT_API
 
 
 Material = Dict[str, str]
+ALLOWED_AI_HOSTS = {"text.pollinations.ai", "api.mymemory.translated.net"}
+MAX_TRANSLATION_LENGTH = 450
 
 
 def _request_text(url: str, timeout: int = 30) -> str:
+    host = urllib.parse.urlparse(url).netloc
+    if host not in ALLOWED_AI_HOSTS:
+        raise ValueError(f"Disallowed AI host: {host}")
     request = urllib.request.Request(url, headers={"User-Agent": "KiriMonoLog/1.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:  # nosec B310
         return response.read().decode("utf-8", errors="replace").strip()
@@ -41,8 +46,13 @@ def generate_chinese_log(materials: List[Material], date_text: str, persona_name
     except Exception:
         pass
 
-    fallback = "、".join(m["text"] for m in materials[:2])
-    return f"今天是{date_text}。我把心情轻轻放慢，想起{fallback}。日子并不总是发光，但我愿意把每一件小事认真收藏，像把细碎星光放进抽屉，等夜深时再慢慢看。"
+    first = materials[0]["text"] if materials else "街角吹来的晚风"
+    second = materials[1]["text"] if len(materials) > 1 else "手心里慢慢安静下来的温度"
+    return (
+        f"今天是{date_text}。我把心情轻轻放慢，先想到“{first}”，"
+        f"又被“{second}”温柔地提醒。日子并不总是发光，"
+        "但我愿意把每一件小事认真收藏，像把细碎星光放进抽屉，等夜深时再慢慢看。"
+    )
 
 
 def translate_text(chinese_text: str, target_code: str, target_name: str) -> str:
@@ -60,7 +70,7 @@ def translate_text(chinese_text: str, target_code: str, target_name: str) -> str
         pass
 
     try:
-        params = urllib.parse.urlencode({"q": chinese_text[:450], "langpair": f"zh-CN|{target_code}"})
+        params = urllib.parse.urlencode({"q": chinese_text[:MAX_TRANSLATION_LENGTH], "langpair": f"zh-CN|{target_code}"})
         url = f"https://api.mymemory.translated.net/get?{params}"
         raw = _request_text(url)
         data = json.loads(raw)
