@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import random
 from pathlib import Path
 
 from kirimonolog.ai_client import generate_chinese_log, translate_text
@@ -18,6 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate a multilingual KiriMonoLog markdown file.")
     parser.add_argument("--date", help="Log date in YYYY-MM-DD. Defaults to today's UTC date.")
     parser.add_argument("--repo-root", default=".", help="Repository root path.")
+    parser.add_argument("--seed", type=int, help="Optional random seed for reproducible material/language selection.")
     return parser.parse_args()
 
 
@@ -25,6 +27,7 @@ def main() -> int:
     args = parse_args()
     target_date = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(dt.timezone.utc).date()
     repo_root = Path(args.repo_root).resolve()
+    random.seed(args.seed if args.seed is not None else target_date.toordinal())
 
     materials = gather_daily_materials()
     date_text = target_date.strftime("%Y-%m-%d")

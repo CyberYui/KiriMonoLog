@@ -50,6 +50,12 @@ python scripts/run_daily_log.py --repo-root .
 python scripts/run_daily_log.py --repo-root . --date 2026-05-14
 ```
 
+复现同一日期随机结果（便于调试）：
+
+```bash
+python scripts/run_daily_log.py --repo-root . --date 2026-05-14 --seed 739385
+```
+
 ## 扩展建议
 - 在 `scripts/kirimonolog/config.py` 扩充更多人设字段与节日设定；
 - 在 `fetchers.py` 增加新的免费素材 API；

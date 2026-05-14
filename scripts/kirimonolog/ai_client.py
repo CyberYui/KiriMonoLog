@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 from typing import Dict, List
 
-from kirimonolog.config import POLLINATIONS_TEXT_API
+from kirimonolog.config import POLLINATIONS_QUERY_PARAMS, POLLINATIONS_TEXT_API
 
 
 Material = Dict[str, str]
@@ -26,7 +26,8 @@ def _request_text(url: str, timeout: int = 30) -> str:
 
 def _pollinations(prompt: str) -> str:
     encoded = urllib.parse.quote(prompt, safe="")
-    url = f"{POLLINATIONS_TEXT_API}/{encoded}?model=openai&private=true"
+    query = urllib.parse.urlencode(POLLINATIONS_QUERY_PARAMS)
+    url = f"{POLLINATIONS_TEXT_API}/{encoded}?{query}"
     return _request_text(url)
 
 
@@ -74,6 +75,8 @@ def translate_text(chinese_text: str, target_code: str, target_name: str) -> str
         pass
 
     try:
+        if len(chinese_text) > MAX_TRANSLATION_LENGTH:
+            print(f"[warn] Translation input truncated to {MAX_TRANSLATION_LENGTH} chars for fallback API.")
         params = urllib.parse.urlencode({"q": chinese_text[:MAX_TRANSLATION_LENGTH], "langpair": f"zh-CN|{target_code}"})
         url = f"https://api.mymemory.translated.net/get?{params}"
         raw = _request_text(url)

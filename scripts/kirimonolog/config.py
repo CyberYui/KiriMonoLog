@@ -16,6 +16,10 @@ LANGUAGE_OPTIONS = {
 }
 
 POLLINATIONS_TEXT_API = "https://text.pollinations.ai"
+POLLINATIONS_QUERY_PARAMS = {
+    "model": "openai",
+    "private": "true",
+}
 
 SOURCE_ENDPOINTS = [
     "https://v1.hitokoto.cn/?encode=json",
