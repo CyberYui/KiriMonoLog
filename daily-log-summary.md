@@ -1,7 +1,7 @@
 # 🌸 桐雾（Kiri）每日记录总览
 
 > 面向客户展示的日志总览页：集中展示近期风格、语种和代表性内容。  
-> 原始自动产生日志请查看 `logs/YYYY/MM/*.md`。
+> 原始自动生成的日志请查看 `logs/YYYY/MM/*.md`。
 
 ---
 
@@ -110,7 +110,7 @@
 **中文原版**
 > 2026-05-21  
 > 今天的天空像一张轻纱，微风带着棕榈林的香气。记起那句“懂得爱，拥有爱，追寻爱，感受爱，与爱相伴，被爱治愈”，让我在此刻觉得温暖。  
-> 偶然看到一条趣味小知识：Nutmeg if injected intravenously is extremely poisonous.  
+> 偶然看到一条趣味小知识：Nutmeg is extremely poisonous if injected intravenously.  
 > 晚上睡前脑海里浮现一句俏皮的话：“If it ain't broke don't fix it”，提醒我放慢节奏，不必给宁静加上标签。  
 > 把这份轻盈写进日记，又像拾起一粒细小温柔的碎光。
 
