@@ -1,0 +1,69 @@
+:root {
+  --bg: #fdf7ff;
+  --card: #ffffff;
+  --text: #2b2140;
+  --subtext: #6f6385;
+  --border: #e4d7f6;
+}
+
+body[data-theme="night"] {
+  --bg: #0f1220;
+  --card: #1a2034;
+  --text: #ecebff;
+  --subtext: #b8b9d9;
+  --border: #2d3454;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+#bj-time {
+  color: var(--subtext);
+}
+
+.records {
+  display: grid;
+  gap: 12px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.meta {
+  margin: 0 0 8px;
+  color: var(--subtext);
+  font-size: 14px;
+}
+
+.mood {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.diary {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}

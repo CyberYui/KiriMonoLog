@@ -32,6 +32,7 @@ from kirimonolog.ai_client import generate_chinese_log, translate_text
 from kirimonolog.composer import choose_target_language, render_markdown
 from kirimonolog.config import PERSONA_NAME, PERSONA_PROFILE
 from kirimonolog.fetchers import gather_daily_materials
+from kirimonolog.web_exporter import export_web_logs_data
 from kirimonolog.writer import build_log_path, write_text
 
 
@@ -83,6 +84,9 @@ def main() -> int:
     # Step 5: 写入文件
     output = build_log_path(repo_root, target_date)
     write_text(output, markdown)
+
+    # Step 6: 导出网页展示数据
+    export_web_logs_data(repo_root)
 
     print(f"Generated log: {output}")
     return 0
