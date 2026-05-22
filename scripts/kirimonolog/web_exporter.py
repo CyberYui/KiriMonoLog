@@ -26,7 +26,7 @@ def _parse_log(path: Path, repo_root: Path) -> dict[str, str]:
     date_text = path.stem
     zh_cell = _extract(r"<tr><td>(.*?)</td><td>", raw)
     zh_diary = _clean_html_cell(zh_cell)
-    mood_record = _extract(r"- \*\*情绪短句\*\*：(.+?)（", raw)
+    mood_record = html.unescape(_extract(r"- \*\*情绪短句\*\*：(.+?)（", raw))
     random_language = _extract(r"> 本日随机语种：\*\*(.+?)\*\*", raw)
     return {
         "date": date_text,
