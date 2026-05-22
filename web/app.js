@@ -45,7 +45,7 @@ function renderRecord(record) {
 
 async function loadLogs() {
   try {
-    const resp = await fetch("./web/logs.json", { cache: "no-store" });
+    const resp = await fetch("web/logs.json", { cache: "no-store" });
     if (!resp.ok) {
       throw new Error("加载失败");
     }

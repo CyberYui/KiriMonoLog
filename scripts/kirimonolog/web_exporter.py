@@ -9,6 +9,12 @@ import re
 from pathlib import Path
 from typing import Any
 
+ZH_TABLE_PATTERN = (
+    r"## 今日心情日志（双语）\s*<table>.*?<tr><th>中文原版</th><th>多语言版本</th></tr>\s*<tr><td>(.*?)</td><td>"
+)
+# 日志素材可能出现全角（中文）或半角（英文）括号，统一兼容两种结束符。
+MOOD_PATTERN = r"- \*\*情绪短句\*\*：(.+?)(?:（|\(|$)"
+
 
 def _extract(pattern: str, content: str) -> str:
     match = re.search(pattern, content, flags=re.DOTALL)
@@ -24,12 +30,9 @@ def _clean_html_cell(text: str) -> str:
 def _parse_log(path: Path, repo_root: Path) -> dict[str, str]:
     raw = path.read_text(encoding="utf-8")
     date_text = path.stem
-    zh_cell = _extract(
-        r"## 今日心情日志（双语）\s*<table>.*?<tr><th>中文原版</th><th>多语言版本</th></tr>\s*<tr><td>(.*?)</td><td>",
-        raw,
-    )
+    zh_cell = _extract(ZH_TABLE_PATTERN, raw)
     zh_diary = _clean_html_cell(zh_cell)
-    mood_record = html.unescape(_extract(r"- \*\*情绪短句\*\*：(.+?)(?:（|\(|$)", raw))
+    mood_record = html.unescape(_extract(MOOD_PATTERN, raw))
     random_language = _extract(r"> 本日随机语种：\*\*(.+?)\*\*", raw)
     return {
         "date": date_text,
