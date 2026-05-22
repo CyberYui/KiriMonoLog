@@ -39,7 +39,8 @@
 3. 🤖 **AI 生成日志** —— 调用 Pollinations 免费 AI 接口生成中文日记
 4. 🌍 **多语言翻译** —— 随机生成英文 / 日文 / 韩文版本
 5. 📁 **自动归档** —— 按 `logs/YYYY/MM/YYYY-MM-DD.md` 分层存储
-6. 🔄 **自动提交推送** —— GitHub Actions 自动 commit & push，形成仓库持续更新记录（默认提交者为 `github-actions[bot]`）
+6. 🔄 **自动提交推送** —— GitHub Actions 自动 commit & push，提交者使用触发工作流的用户账号信息
+7. 🖼️ **日志展示网页** —— 内置 `index.html` 页面可展示每日日期、心情记录与北京时间日/夜主题
 
 ---
 
@@ -50,6 +51,10 @@
 ├── .github/
 │   └── workflows/
 │       └── daily-log.yml          # GitHub Actions 自动化工作流
+├── web/
+│   ├── app.js                     # 网页逻辑（北京时间与主题切换）
+│   ├── styles.css                 # 网页样式（昼夜主题）
+│   └── logs.json                  # 网页日志数据（自动更新）
 ├── logs/                          # 每日日志归档（自动生成）
 │   └── 2026/
 │       └── 05/
@@ -67,6 +72,7 @@
 │       ├── composer.py            # Markdown 排版渲染
 │       └── writer.py              # 文件写入工具
 ├── daily-log-summary.md           # 每日记录汇总（方便浏览）
+├── index.html                     # Kiri 每日日志展示页
 ├── LICENSE                        # MIT 许可证
 ├── README.md                      # 本文件
 └── .gitignore                     # Git 忽略规则
@@ -111,6 +117,10 @@ python scripts/run_daily_log.py --repo-root .
 ```bash
 python scripts/run_daily_log.py --repo-root . --date 2026-05-14
 ```
+
+### 浏览 Kiri 网页日志
+
+直接打开仓库根目录下的 `index.html` 即可查看每日日期、心情记录与北京时间主题切换效果。
 
 ### 复现同一日期的随机结果（调试用）
 
