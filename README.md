@@ -39,7 +39,7 @@
 3. 🤖 **AI 生成日志** —— 调用 Pollinations 免费 AI 接口生成中文日记
 4. 🌍 **多语言翻译** —— 随机生成英文 / 日文 / 韩文版本
 5. 📁 **自动归档** —— 按 `logs/YYYY/MM/YYYY-MM-DD.md` 分层存储
-6. 🔄 **自动提交推送** —— GitHub Actions 自动 commit & push，形成自然贡献记录
+6. 🔄 **自动提交推送** —— GitHub Actions 自动 commit & push，形成仓库持续更新记录（默认提交者为 `github-actions[bot]`）
 
 ---
 
