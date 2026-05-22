@@ -1,13 +1,39 @@
+# ══════════════════════════════════════════════════════════════
+# KiriMonoLog 每日日志自动生成工作流
+# ══════════════════════════════════════════════════════════════
+#
+# 触发方式：
+#   1. 定时触发：每天 UTC 16:17（北京时间 00:17）自动执行
+#   2. 手动触发：在 GitHub Actions 页面点击 "Run workflow"
+#
+# 执行流程：
+#   1. 检出代码库
+#   2. 设置 Python 3.12 环境
+#   3. 运行 run_daily_log.py 生成当日日志
+#   4. 如果有文件变更，自动 commit 并 push
+#
+# 权限说明：
+#   contents: write —— 允许工作流向仓库提交代码（推送日志文件）
+#
+# 并发控制：
+#   cancel-in-progress: false —— 不会取消正在运行的上一次执行
+#   （避免两次执行互相覆盖导致 push 冲突）
+# ══════════════════════════════════════════════════════════════
+
 name: KiriMonoLog Daily Diary
 
 on:
+  # 定时触发：每天 UTC 16:17 执行（cron 表达式：分 时 日 月 周）
   schedule:
     - cron: "17 16 * * *"
+  # 手动触发：允许在 GitHub 网页端手动运行
   workflow_dispatch:
 
+# 工作流权限：需要写权限才能提交日志文件
 permissions:
   contents: write
 
+# 并发控制组：同一时间只允许一个实例运行
 concurrency:
   group: kirimonolog-daily
   cancel-in-progress: false
@@ -16,19 +42,26 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     env:
+      # GitHub Actions 环境变量：强制使用 Node 24（兼容性设置）
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
+      # Step 1: 检出仓库代码
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Step 2: 设置 Python 运行环境
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # Step 3: 运行日志生成脚本
       - name: Generate today's log
         run: python scripts/run_daily_log.py --repo-root .
 
+      # Step 4: 如果有变更则提交并推送
+      # 使用 git diff --cached --quiet 检测是否有实际变更
+      # 没有变更时跳过提交，避免产生空 commit
       - name: Commit if changed
         run: |
           git add logs
