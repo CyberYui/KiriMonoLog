@@ -58,12 +58,16 @@ This approach minimizes risk while delivering the requested polish and maintaina
   - how to run or deploy it as a static page,
   - how avatar and daily record content are sourced,
   - how to update the page after deployment.
-- Add a new non-README root file that documents:
+- Add a new non-README root file, preferably `introAI.md`, that documents:
   - the main entry file,
   - style/script/data files,
   - static assets,
   - how the page composes profile information and daily record content,
-  - how the important files relate to each other.
+  - how the important files relate to each other,
+  - the project's technical choices and constraints,
+  - how a future AI agent should quickly understand the project before planning changes, refactors, or rebuild work.
+
+This root file is not just human-facing documentation. It is the project's AI handoff document so future agents can skip full re-discovery and begin from an accurate summary of structure, logic, and maintenance expectations.
 
 ### Commenting policy
 
@@ -135,7 +139,7 @@ The finished work should leave the repository with:
 - a cleaned tracked file set,
 - an updated `.gitignore`,
 - an updated `README.md`,
-- a new root-level project guide file,
+- a new root-level AI-oriented guide file (`introAI.md` unless implementation reveals HTML is materially better),
 - improved comments across meaningful source/config/text files,
 - a polished Kiri homepage using the provided avatar image,
 - preserved daily record functionality,
