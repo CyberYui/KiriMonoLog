@@ -1,17 +1,25 @@
 :root {
-  --bg: #fdf7ff;
-  --card: #ffffff;
+  --bg: linear-gradient(135deg, #fdf7ff 0%, #f7f2ff 45%, #eef8ff 100%);
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: rgba(255, 255, 255, 0.92);
   --text: #2b2140;
   --subtext: #6f6385;
-  --border: #e4d7f6;
+  --border: rgba(169, 141, 219, 0.26);
+  --shadow: 0 24px 60px rgba(114, 83, 160, 0.18);
+  --accent: #8d67d6;
+  --accent-soft: rgba(141, 103, 214, 0.12);
 }
 
 body[data-theme="night"] {
-  --bg: #0f1220;
-  --card: #1a2034;
+  --bg: linear-gradient(135deg, #0d1020 0%, #12172a 50%, #1a2748 100%);
+  --surface: rgba(21, 27, 46, 0.82);
+  --surface-strong: rgba(18, 24, 43, 0.92);
   --text: #ecebff;
   --subtext: #b8b9d9;
-  --border: #2d3454;
+  --border: rgba(115, 131, 189, 0.24);
+  --shadow: 0 24px 60px rgba(6, 10, 21, 0.45);
+  --accent: #9fd3ff;
+  --accent-soft: rgba(159, 211, 255, 0.14);
 }
 
 * {
@@ -20,50 +28,244 @@ body[data-theme="night"] {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  min-height: 100vh;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: var(--bg);
   color: var(--text);
+  transition: background 220ms ease, color 220ms ease;
 }
 
-.container {
-  max-width: 920px;
+.theme-toggle {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 10;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 12px 18px;
+  background: var(--surface-strong);
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.page-shell {
+  width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 20px;
+  padding: 96px 0 40px;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  gap: 24px;
 }
 
-.hero {
+.profile-panel,
+.hero,
+.intro-card,
+.card,
+.daily-records {
+  backdrop-filter: blur(18px);
+}
+
+.profile-panel {
+  position: sticky;
+  top: 32px;
+  align-self: start;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 28px;
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.avatar-frame {
+  border-radius: 24px;
+  overflow: hidden;
   margin-bottom: 20px;
+  background: var(--accent-soft);
 }
 
-#bj-time {
+.profile-avatar {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.eyebrow,
+.hero-label,
+.section-label,
+.section-note,
+.timestamp,
+.profile-lead {
   color: var(--subtext);
+}
+
+.eyebrow,
+.hero-label,
+.section-label {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.profile-panel h1,
+.hero h2,
+.intro-card h3,
+.section-heading h3,
+.card-date {
+  margin: 0;
+}
+
+.profile-lead {
+  margin: 12px 0 0;
+  line-height: 1.7;
+}
+
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+.profile-tags li {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: var(--accent-soft);
+}
+
+.content-panel {
+  display: grid;
+  gap: 20px;
+}
+
+.hero,
+.intro-card,
+.daily-records {
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.hero-description,
+.intro-card p,
+.diary {
+  line-height: 1.8;
+}
+
+.timestamp {
+  margin-top: 18px;
+  font-size: 14px;
 }
 
 .records {
   display: grid;
-  gap: 12px;
+  gap: 16px;
 }
 
 .card {
-  background: var(--card);
+  background: var(--surface-strong);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 14px;
+  border-radius: 24px;
+  padding: 20px;
 }
 
-.meta {
-  margin: 0 0 8px;
-  color: var(--subtext);
-  font-size: 14px;
+.section-heading,
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.section-note {
+  margin: 0;
+  font-size: 13px;
+}
+
+.card-language {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 84px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--text);
+  font-size: 13px;
 }
 
 .mood {
-  margin: 0 0 8px;
+  margin: 18px 0 10px;
   font-weight: 600;
 }
 
 .diary {
-  margin: 0;
+  margin: 0 0 16px;
   white-space: pre-wrap;
-  line-height: 1.5;
+}
+
+.log-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.log-link:hover {
+  text-decoration: underline;
+}
+
+.load-error {
+  margin: 0;
+  color: #ff8a8a;
+}
+
+code {
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+}
+
+@media (max-width: 900px) {
+  .page-shell {
+    grid-template-columns: 1fr;
+    padding-top: 92px;
+  }
+
+  .profile-panel {
+    position: static;
+  }
+
+  .section-heading,
+  .card-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .theme-toggle {
+    top: 16px;
+    right: 16px;
+  }
+
+  .page-shell {
+    width: min(100% - 20px, 1180px);
+    padding-bottom: 24px;
+  }
+
+  .hero,
+  .intro-card,
+  .daily-records,
+  .profile-panel,
+  .card {
+    border-radius: 22px;
+    padding: 20px;
+  }
 }

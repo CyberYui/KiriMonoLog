@@ -3,18 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kiri 每日日志</title>
+    <title>KiriMonoLog | 桐雾的每日心情日志</title>
     <link rel="stylesheet" href="./web/styles.css" />
   </head>
-  <body data-theme="day">
-    <main class="container">
-      <header class="hero">
-        <h1>🌸 Kiri 每日日志</h1>
-        <p id="bj-time">北京时间加载中…</p>
-      </header>
-      <section>
-        <h2>日志与心情记录</h2>
-        <div id="records" class="records"></div>
+  <body data-theme="night">
+    <!-- 主题按钮放在页面右上角，确保静态部署时也能直接切换昼夜模式。 -->
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换页面主题">切换到白天</button>
+
+    <main class="page-shell">
+      <!-- 左侧区域固定展示 Kiri 头像与角色标签，作为整页视觉锚点。 -->
+      <section class="profile-panel" aria-labelledby="profile-title">
+        <div class="avatar-frame">
+          <img
+            src="./assets/images/generated-image-1.png"
+            alt="桐雾（Kiri）的头像"
+            class="profile-avatar"
+          />
+        </div>
+        <div class="profile-copy">
+          <p class="eyebrow">KiriMonoLog</p>
+          <h1 id="profile-title">桐雾（Kiri）</h1>
+          <p class="profile-lead">温柔、细腻、略带元气的虚拟少女记录者。</p>
+          <ul class="profile-tags" aria-label="Kiri 的角色标签">
+            <li>生活感悟</li>
+            <li>情绪短句</li>
+            <li>轻文学治愈</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="content-panel">
+        <header class="hero">
+          <p class="hero-label">AI Daily Diary</p>
+          <h2>在代码与夜色之间，替今天的心情留一页位置。</h2>
+          <p class="hero-description">
+            这个页面会展示 Kiri 的角色简介、北京时间以及最新生成的每日记录内容；
+            你可以把它直接部署成静态主页，用来长期浏览和维护这份日志项目。
+          </p>
+          <p id="bj-time" class="timestamp">北京时间加载中…</p>
+        </header>
+
+        <section class="intro-card" aria-labelledby="intro-title">
+          <div>
+            <p class="section-label">About Kiri</p>
+            <h3 id="intro-title">Kiri 的小简介</h3>
+          </div>
+          <p>
+            桐雾（Kiri）是这个仓库中的虚拟记录者：她会从日常灵感、随机素材与 AI 生成内容里，
+            把普通的一天整理成一段可以反复阅读的温柔日志。项目保留自动化生成能力，而这个主页负责更好地展示这些记录。
+          </p>
+        </section>
+
+        <section id="daily-records" class="daily-records" aria-labelledby="daily-records-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Daily Records</p>
+              <h3 id="daily-records-title">每日记录内容</h3>
+            </div>
+            <p class="section-note">数据直接读取自 <code>web/logs.json</code>，不额外复制维护。</p>
+          </div>
+          <div id="records" class="records" aria-live="polite"></div>
+        </section>
       </section>
     </main>
     <script src="./web/app.js"></script>
