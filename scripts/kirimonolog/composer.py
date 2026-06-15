@@ -68,7 +68,7 @@ def _to_html_lines(text: str) -> str:
     return "<br>".join(html.escape(line) for line in text.splitlines() if line.strip())
 
 
-def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str, lang_code: str, lang_name: str, translated_text: str) -> str:
+def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str, lang_code: str, translated_text: str) -> str:
     """渲染完整的日志 Markdown 文档。
 
     输出结构：
@@ -82,7 +82,6 @@ def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str
         materials      : 当日素材列表
         zh_text        : 中文日记正文
         lang_code      : 目标语言 ISO 代码（如 "en"/"ja"/"ko"）
-        lang_name      : 目标语言名称（用于标注）
         translated_text: 翻译后的文本
 
     Returns:
