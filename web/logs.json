@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-15T01:55:57.215920+00:00",
+  "generated_at_utc": "2026-06-15T17:57:59.567285+00:00",
   "records": [
+    {
+      "date": "2026-06-15",
+      "log_path": "logs/2026/06/2026-06-15.md",
+      "mood_record": "Respect your elders.",
+      "zh_diary": "2026-06-15，桐雾（Kiri）在夜晚的灯光下整理心情。翻开日历才发现，时间真的过得比想象中快。Respect your elders.",
+      "translated_diary": "2026-06-15, Kiri는 저녁 조명에서 정리합니다. 달력을 열어보니 정말 시간이 생각보다 빨리 지나간다는 걸 깨달았어요. 장로들을 존중하십시오.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-06-14",
       "log_path": "logs/2026/06/2026-06-14.md",
