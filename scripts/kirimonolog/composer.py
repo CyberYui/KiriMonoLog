@@ -92,8 +92,7 @@ def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str
     # 将纯文本转为 HTML 行，适配表格单元格内的多行排版
     zh_html = _to_html_lines(zh_text)
     translated_html = _to_html_lines(translated_text)
-    # 生成语言标签（如 "ZH + JP"）
-    lang_tag = f"ZH + {LANGUAGE_SHORT_NAMES.get(lang_code, lang_code.upper())}"
+    lang_tag = build_language_tag(lang_code)
 
     return (
         f"# {date_str} · KiriMonoLog\n\n"
