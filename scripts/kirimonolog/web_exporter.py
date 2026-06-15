@@ -130,10 +130,13 @@ def _parse_log(path: Path, repo_root: Path) -> dict[str, str]:
     date_text = path.stem
 
     # 提取双栏表格内容
-    zh_cell, translated_cell = _extract(ZH_TABLE_PATTERN, raw)
+    table_cells = _extract(ZH_TABLE_PATTERN, raw)
+    if isinstance(table_cells, tuple) and len(table_cells) == 2:
+        zh_cell, translated_cell = table_cells
+    else:
+        zh_cell, translated_cell = "", ""
     zh_diary = _clean_html_cell(zh_cell)
     translated_diary = _clean_html_cell(translated_cell)
-
     # 提取情绪短句素材
     mood_record = html.unescape(_extract(MOOD_PATTERN, raw))
 
