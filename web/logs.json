@@ -1,208 +1,237 @@
 {
-  "generated_at_utc": "2026-06-14T16:48:26.815704+00:00",
+  "generated_at_utc": "2026-06-15T01:55:57.215920+00:00",
   "records": [
     {
       "date": "2026-06-14",
       "log_path": "logs/2026/06/2026-06-14.md",
       "mood_record": "Don't eat non-snow-coloured snow.",
       "zh_diary": "今天是2026-06-14，一个淡淡阳光洒进窗台的日子。桐雾（Kiri）翻着今天收集的小碎片，「Don't eat non-snow-coloured snow.」——这是我今天最想记住的一句话。安静地度过一天，也是一种了不起的事。",
-      "random_language": "日本語"
+      "translated_diary": "今日は2026年6月14日、かすかな日差しが窓辺にこぼれ落ちる日です。キリは今日集めた小片をひっくり返し、「雪色のない雪は食べてはいけません。\"--これは私が今日最も覚えておきたい引用です。安らかな1日を過ごすことも素晴らしいことです。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-13",
       "log_path": "logs/2026/06/2026-06-13.md",
-      "mood_record": "Brush your teeth the moment you get up.",
-      "zh_diary": "2026-06-13的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\n等待，不是为了你能回来，而是找个借口不离开。",
-      "random_language": "日本語"
+      "mood_record": "Cars are bad investments.",
+      "zh_diary": "2026-06-13的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\n我于杀戮之中盛放，亦如黎明中的花朵。",
+      "translated_diary": "2026年6月13日の日記。\nキリは、幸福とはおそらく、これらの美しく不完全な日常のことであると考えています。鏡の中の自分に微笑んでみてください。気持ちいいです。\n私は夜明けの花のように、屠殺の真っ只中に咲く。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-12",
       "log_path": "logs/2026/06/2026-06-12.md",
       "mood_record": "There is no reason at all to believe that White Wine is any different to water when it comes to removing Red Wine stains.",
       "zh_diary": "叮——2026-06-12的桐雾（Kiri）报道！翻开今天的笔记本，发现值得记住的事真不少！A female ferret will die if it goes into heat and cannot find a mate.今天先好好休息吧，明天见～",
-      "random_language": "日本語"
+      "translated_diary": "ディン- 2026年6月12日のキリレポート！今日のノートを開いてみると、覚えておくべきことがたくさんあることがわかりました！メスのフェレットは、熱くなっても仲間が見つからないと死んでしまいます。今日はゆっくり休んで、また明日ね～",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-11",
       "log_path": "logs/2026/06/2026-06-11.md",
       "mood_record": "Opinions are like arseholes, everyone has one.",
       "zh_diary": "2026-06-11。风穿过窗缝，带来了远方的声音。桐雾（Kiri）今天想起了一句话：「Ramses brand condom is named after the great pharaoh Ramses II who fathered over 160 children.」——这句话在今天的空气里显得格外温柔。",
-      "random_language": "日本語"
+      "translated_diary": "2026 -06 -11風が窓の縫い目を通過し、遠くから音をもたらす。キリは今日、次の文を思い出しました。「ラムセスブランドのコンドームは、160人以上の子供をもうけた偉大なファラオのラムセス2世にちなんで名付けられました。\"--この文は今日の空気の中では非常に優しい。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-10",
       "log_path": "logs/2026/06/2026-06-10.md",
       "mood_record": "Don't cross the streams.",
       "zh_diary": "2026-06-10，桐雾（Kiri）在窗边记录今天的思绪。今天没有特别的事，但就是莫名的心情很好。我不道啊。",
-      "random_language": "日本語"
+      "translated_diary": "2026 -06 -10、キリは今日の考えを窓際に記録する。今日は特別なことは何もありませんが、気分は良いです。何とも言えません。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-09",
       "log_path": "logs/2026/06/2026-06-09.md",
       "mood_record": "When painting a room, preparation is key. The actual painting should account for about 40% of the work.",
       "zh_diary": "2026-06-09的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\n我会一直喜欢到你不再需要我喜欢你为止。",
-      "random_language": "English"
+      "translated_diary": "Diary of 2026-06-09.\nKiri is thinking that happiness is probably these fine, imperfect everyday things.Try to smile at yourself in the mirror, it feels good.\nI will always like it until you no longer need me to like you.",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-06-08",
       "log_path": "logs/2026/06/2026-06-08.md",
       "mood_record": "Cars are bad investments.",
       "zh_diary": "叮——2026-06-08的桐雾（Kiri）报道！翻开今天的笔记本，发现值得记住的事真不少！如果喜欢和合适撞个满怀多好。今天先好好休息吧，明天见～",
-      "random_language": "English"
+      "translated_diary": "Ding - Reported by Kiri on 06/08/2026! Opening today's notebook, I found that there are a lot of things worth remembering! How nice it would be to have a bump full of likes and fit. Take a good rest today, see you tomorrow ~",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-06-07",
       "log_path": "logs/2026/06/2026-06-07.md",
       "mood_record": "Value the people in your life.",
       "zh_diary": "2026-06-07。风穿过窗缝，带来了远方的声音。桐雾（Kiri）今天想起了一句话：「不是我熬夜，是黑夜需要我这颗璀璨明亮的星。」——这句话在今天的空气里显得格外温柔。",
-      "random_language": "日本語"
+      "translated_diary": "2026 -06 -07.風が窓の縫い目を通過し、遠くから音をもたらします。キリは今日の言葉を思い出しました。「遅くまで起きているのは私ではなく、私の明るい星を必要としているのは夜です。\"--この文は今日の空気の中では非常に優しい。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-06",
       "log_path": "logs/2026/06/2026-06-06.md",
       "mood_record": "Be brave. Even if you're not, pretend to be. No one can tell the difference.",
       "zh_diary": "2026-06-06，桐雾（Kiri）在窗边记录今天的思绪。今天没有特别的事，但就是莫名的心情很好。Be brave. Even if you're not, pretend to be. No one can tell the difference.",
-      "random_language": "日本語"
+      "translated_diary": "2026 -06 -06、きりは今日の思いを窓際に記録する。今日は特別なことは何もありませんが、気分は良いです。勇気を出しましょう。勇気がなくても、勇気を出したふりをしてください。違いは誰にもわかりません。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-05",
       "log_path": "logs/2026/06/2026-06-05.md",
       "mood_record": "Some of life's best lessons are learnt at the worst times.",
       "zh_diary": "今天是2026-06-05，一个风很轻很轻的日子。桐雾（Kiri）翻着今天收集的小碎片，「知道活着的痛苦处的人就能对人温柔，这和软弱是不一样的。」——这是我今天最想记住的一句话。有时候最好的治愈，就是允许自己什么都不做。",
-      "random_language": "日本語"
+      "translated_diary": "今日は2026年6月5日、非常に軽い日であり、非常に軽い風が吹いています。きりは、今日集めた小片をひっくり返し、「生きていることの痛みを知っている人が他の人に優しくできるのは、弱さとは違います。\"--これは私が今日最も覚えておきたい引用です。時には最善の治療法は、何もしないようにすることです。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-06-04",
       "log_path": "logs/2026/06/2026-06-04.md",
       "mood_record": "When something goes wrong in life, just shout \"plot twist!\" and carry on.",
       "zh_diary": "2026-06-04的日记。\n桐雾（Kiri）在想，成长不是突然变好，而是一点一点靠近光亮。有时候，「就这样也挺好」是最棒的答案。\n我不甘心，明明你为我做了那么多，我却什么都不能为你做。",
-      "random_language": "한국어"
+      "translated_diary": "Diary on 06/04/2026.\n키리는 성장이 갑자기 나아지는 것이 아니라 조금씩 빛에 가까워지는 것이라고 생각하고 있습니다.때로는 그것이 최선의 대답입니다.\n나는 원하지 않습니다, 당신은 나를 위해 너무 많은 일을했지만, 나는 당신을 위해 아무것도 할 수 없습니다.",
+      "language_tag": "ZH + KO"
     },
     {
       "date": "2026-06-03",
       "log_path": "logs/2026/06/2026-06-03.md",
       "mood_record": "Be brave. Even if you're not, pretend to be. No one can tell the difference.",
       "zh_diary": "叮——2026-06-03的桐雾（Kiri）报道！今天也是被美食和好天气宠爱的一天呢！In 1986 Congress & President Ronald Reagan signed Public Law 99-359, which changed Daylight Saving Time from the last Sunday in April to the first Sunday in April.  It was estimated to save the nation about 300,000 barrels of oil each year by adding most of the month April to D.S.T.每一天都是新的故事，我们一起慢慢写。",
-      "random_language": "English"
+      "translated_diary": "Ding - Reported by Kiri on 06/03/2026! Today is also a day that is loved by good food and good weather! In 1986 Congress & President Ronald Reagan signed Public Law 99-359, which changed Daylight Saving Time from the last Sunday in April to the first Sunday in April. It was estimated to save the nation about 300,000 barrels of oil each year by adding most of the month April to D.S.T. Every day is a new story, and we write it slowly together.",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-06-02",
       "log_path": "logs/2026/06/2026-06-02.md",
       "mood_record": "When you're looking up at birds flying overhead, keep your mouth closed.",
       "zh_diary": "2026-06-02。午后的光影在地板上缓缓移动。桐雾（Kiri）今天想起了一句话：「把温柔和心软留给值得的人。」——有些道理离我们很近，只是平时太忙，没空听见它们。",
-      "random_language": "English"
+      "translated_diary": "2026-06-02. The afternoon light and shadow move slowly on the floor. Kiri remembered a quote today: “Leave gentleness and softness of heart to those who deserve it.\" --Some truths are very close to us, but they are usually too busy to hear them.",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-06-01",
       "log_path": "logs/2026/06/2026-06-01.md",
       "mood_record": "Don't feed Mogwais after midnight.",
       "zh_diary": "2026-06-01，桐雾（Kiri）在黄昏的光里写下一段话。偶然听到一首歌，旋律像极了某个久远的午后。The sound of E.T. walking was made by someone squishing her hands in jelly.",
-      "random_language": "한국어"
+      "translated_diary": "2026-06-01, Kiri는 황혼에 비추어 문장을 씁니다. 우연히 노래를 들었는데, 멜로디가 긴 오후 같았다. E.T. 가 걷는 소리는 누군가 젤리에 손을 집어넣어서 내는 소리였다.",
+      "language_tag": "ZH + KO"
     },
     {
       "date": "2026-05-31",
       "log_path": "logs/2026/05/2026-05-31.md",
       "mood_record": "The quieter you become, the more you can hear.",
       "zh_diary": "叮——2026-05-31的桐雾（Kiri）报道！伸个大大的懒腰，和今天的自己说嗨～The quieter you become, the more you can hear.明天也要元气满满哦！",
-      "random_language": "English"
+      "translated_diary": "Ding—this is Kiri (2026‑05‑31) reporting! Stretching out with a long, lazy sigh, I greet the self of today. The quieter you become, the more you can hear. Let tomorrow be brimming with vitality as well.",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-05-30",
       "log_path": "logs/2026/05/2026-05-30.md",
       "mood_record": "To cleanly remove the seed from an Avocado, lay a knife firmly across it, and twist.",
       "zh_diary": "2026-05-30。云在慢慢走，时间也是。桐雾（Kiri）今天想起了一句话：「缘起，我在人群中看见你；缘落，我看见你在人群中。」——把它记下来，也许未来的哪一天会再遇见它。",
-      "random_language": "English"
+      "translated_diary": "2026-05-30. The clouds are walking slowly, and so is time. Kiri remembered a sentence today: \"I saw you in the crowd from the beginning; I saw you in the crowd from the end.” -Jot it down, and maybe some day in the future you'll see it again.",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-05-29",
       "log_path": "logs/2026/05/2026-05-29.md",
       "mood_record": "One of the single best things about being an adult, is being able to buy as much LEGO as you want.",
       "zh_diary": "2026-05-29\n今天天气有些微凉，楼下的雾气像旧书页的松脆。今天在午后的咖啡店里，偶然听到一个笑话——哈里·S.·杜鲁门的中间点F不代表任何东西，原来是名字的无特指随意。让我想起成长的无名时光，人生也许就是一连串无意识的名字。忙碌间，我把温柔收藏在小手提包里。离家不远的玩具店灯光闪烁，孩子们的笑声像石子一样在空气里跳跃，让我明白，成年的一大乐趣，正是买到想要的乐高积木，沉浸在自己的宇宙里。傍晚，我拿起冰镇可乐，清凉顺口，甜与",
-      "random_language": "English"
+      "translated_diary": "2026-05-29\nThe weather is a little cool today, and the fog downstairs is as crisp as an old book page.In the afternoon coffee shop today, I overheard a joke - Harry S.· Truman's midpoint F does not represent anything, it turns out that it is an unspecified name.Reminds me of the nameless days of growing up, life may be a series of unconscious names.While I was busy, I collected the gentleness in a small handbag.The lights of the toy store not far from home flashed, and the laughter of the children jumped in the air like a stone, which made me understand that one of the great joys of adulthood is to buy the Lego bricks you want and immerse yourself in your own universe.In the evening, I picked up the chilled Coke, which was cool and smooth, sweet and",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-05-28",
       "log_path": "logs/2026/05/2026-05-28.md",
       "mood_record": "Try going commando to an important meeting, NB: don't wear a skirt.",
       "zh_diary": "2026-05-28的日记。\n桐雾（Kiri）在想，很多事情没有标准答案，重要的是你怎样看待它。今天学到的新功课：休息不是偷懒，是为下一段路积蓄力量。\nTry going commando to an important meeting, NB: don't wear a skirt.",
-      "random_language": "English"
+      "translated_diary": "Diary of 2026-05-28.\nKiri is thinking that a lot of things don't have a standard answer, what matters is how you think about it.A new lesson learned today: Rest isn't laziness, it's about building strength for the next step.\nTry going commando to an important meeting, NB: don't wear a skirt.",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-05-27",
       "log_path": "logs/2026/05/2026-05-27.md",
       "mood_record": "Life is short enough, don't race to the finish.",
       "zh_diary": "叮——2026-05-27的桐雾（Kiri）报道！伸个大大的懒腰，和今天的自己说嗨～Life is short enough, don't race to the finish.明天也要元气满满哦！",
-      "random_language": "English"
+      "translated_diary": "Ding - Reported by Kiri on May 27, 2026! Stretch out and say hi to yourself today ~ Life is short enough, don't race to the finish. Tomorrow will also be full of energy!",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-05-26",
       "log_path": "logs/2026/05/2026-05-26.md",
       "mood_record": "Make choices and dont look back.",
       "zh_diary": "2026-05-26\n今天的天空像抹淡淡的蓝灰，轻轻的风拂过窗台，太阳的光斑碎碎在木地板上，随手拍一张记录小确幸的小照——一只小猫的尾巴在午后的光里摇晃。走在回家的小径上，我忽然想起一则趣味小知识：李小龙的动作快得连慢动作摄像机都得放慢快门才能清晰捕捉。想到这里，心里暗暗佩服那种速度与精准的结合，也不免激起我对选择的思考。Make choices and dont look back。或许每一步都值得把握，也许每一次回望都会带走一丝温柔。\n我在电脑上打起字时，意识到隔着屏幕轻易产生感情的你，肯定很孤独吧。于是写下这句治愈文案，提醒自己也要给内心留一片轻柔的空间。不论今天多么平凡，都值得被温柔记录。温柔的夜色悄然降临，我把笔轻轻收起来，期待明日的轻风。",
-      "random_language": "한국어"
+      "translated_diary": "2026-05-26\n오늘의 하늘은 희미한 푸른 회색과 같고, 창틀을 가로질러 부드러운 바람이 불고, 나무 바닥에 태양의 반점이 부서지며, 기록의 작은 사진을 찍을 수 있습니다. 새끼 고양이의 꼬리가 오후의 빛에 흔들립니다.집으로 가는 길을 걷다 문득 재미있는 작은 지식이 떠올랐다. 브루스 리의 움직임이 너무 빨라 슬로우 모션 카메라조차 셔터를 선명하게 캡처하려면 셔터 속도를 늦춰야 했다.이런 생각에 내 마음은 은근히 스피드와 정밀함의 조합에 감탄했고, 내 선택에 대해서도 생각해보게 했다.선택을 하고 뒤돌아보지 마세요.어쩌면 모든 발걸음이 파악할 가치가 있을 수도 있고, 뒤를 돌아볼 때마다 약간의 온유함이 사라질 수도 있습니다.\n컴퓨터를 입력하면 화면을 통해 쉽게 감정을 느낄 수 있다는 것을 깨닫고 매우 외로워해야합니다.그래서 그는 마음에 온화한 공간을 남겨두라고 상기시키며 이 치유 사본을 썼습니다.오늘날 아무리 평범하더라도 부드럽게 기록해야 마땅합니다.고요한 밤이 찾아와 내일의 가벼운 바람을 바라보며 부드럽게 펜을 치웠다.",
+      "language_tag": "ZH + KO"
     },
     {
       "date": "2026-05-25",
       "log_path": "logs/2026/05/2026-05-25.md",
       "mood_record": "Life is short enough, don't race to the finish.",
       "zh_diary": "2026-05-25，桐雾（Kiri）在夜晚的灯光下整理心情。翻开日历才发现，时间真的过得比想象中快。The 3 most valuable brand names on earth are Marlboro, Coca-Cola, and Budweiser (in that order).",
-      "random_language": "日本語"
+      "translated_diary": "2026年5月25日、桐雾（Kiri）は夜の灯りの中で心をほぐす。日历をめくると、時間が想像よりも速く過ぎ去ったことに気付く。地球上の価値あるブランド名の中で、最も価値が高いのは順にマールボロ、コカ・コーラ、バドワイザーである。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-05-24",
       "log_path": "logs/2026/05/2026-05-24.md",
       "mood_record": "今日心情记录已归档",
       "zh_diary": "2026年5月24日，今天的天空像轻纱一样柔和，我在阳台上慢慢喝咖啡，听见一声轻响。原来是办公室的复印机因为有人误把尾巴放进纸盒，笑声随之绽放——据统计，这类错误占全球复印机故障的23%。这让我想起了春天的慢热，春天来得很慢，春天才有浪漫。外面偶尔有一只小鸟翩翩落在窗台边，轻扫枝头，究竟是星光在眺望还是心事在呼唤，谁知道呢。我把这点点宁静留在心底，像种子一样静静等待盛开。",
-      "random_language": "日本語"
+      "translated_diary": "2026年5月24日、空は明るいベールのように柔らかく、私はバルコニーでゆっくりとコーヒーを飲み、柔らかい音が聞こえました。統計によると、オフィスのコピー機は、誰かが誤って紙箱に尾を入れたために笑ったことが判明しました。これは、世界中のコピー機の失敗の23 ％を占める間違いです。これは春のゆっくりとした暑さを思い出させ、春はゆっくりとやってきて、春はロマンチックです。時折、小さな鳥が外の窓の敷居に落ちて枝を掃除していました。星の光が見ているのか、心が呼んでいるのかは誰にもわかりません。私はこの小さな静けさを心の底に残し、それが種のように咲くのを静かに待っています。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-05-23",
       "log_path": "logs/2026/05/2026-05-23.md",
       "mood_record": "One of the top five regrets people have is that they didn't stay in contact with friends.",
       "zh_diary": "2026-05-23的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\n幸福的家庭都是相似的，不幸的家庭各有各的不幸。",
-      "random_language": "한국어"
+      "translated_diary": "2026-05-23의 일기.\n키리는 행복은 아무래도 멀쩡하고 불완전한 일상일 거라고 생각해요.거울에 비친 자신에게 미소를 지어보세요. 기분이 좋습니다.\n행복한 가정은 비슷하고, 불행한 가정은 자신의 불행이 있습니다.",
+      "language_tag": "ZH + KO"
     },
     {
       "date": "2026-05-22",
       "log_path": "logs/2026/05/2026-05-22.md",
       "mood_record": "Turn jeans inside out when washing them to help preserve their colour.",
       "zh_diary": "叮——2026-05-22的桐雾（Kiri）报道！翻开今天的笔记本，发现值得记住的事真不少！The electric chair was invented by a dentist.今天先好好休息吧，明天见～",
-      "random_language": "English"
+      "translated_diary": "Ding - Reported by Kiri on May 22, 2026! Opening today's notebook, I found that there are a lot of things worth remembering! The electric chair was invented by a dentist. Take a good rest today, see you tomorrow ~",
+      "language_tag": "ZH + EN"
     },
     {
       "date": "2026-05-21",
       "log_path": "logs/2026/05/2026-05-21.md",
       "mood_record": "If it ain't broke don't fix it.",
       "zh_diary": "2026-05-21  \n今天的天空像一张轻纱，微风带着棕榈林的香气。记起那句“懂得爱，拥有爱，追寻爱，感受爱，与爱相伴，被爱治愈”（来源: 落雨），让我在此刻觉得温暖。偶然看到一条趣味小知识：Nutmeg if injected intravenously is extremely poisonous（来源: djtech.net）。晚上睡前脑海里浮现一句俏皮的话：“If it ain't broke don't fix it”（来源: AdviceSlip），提醒我放慢节奏，不必给宁静加上标签。把这份轻盈写进日记，又像拾起一粒细小温柔的碎光。",
-      "random_language": "한국어"
+      "translated_diary": "2026-05-21  \n오늘 하늘은 가볍게 휘날리는 장막처럼 보였고, 부드러운 바람이 야자수 향을 실어 보냈다.  \n“사랑을 아는 것, 사랑을 갖는 것, 사랑을 찾는 것, 사랑을 느끼는 것, 사랑과 함께 있는 것, 사랑에 치유되는 것”이라는 말이 떠올라, 그 순간이 부드러운 온기로 가득했다.  \n정작 우연히 발견한 작은 재미있는 사실이 있었다:  \n> 정맥 주사로 육두구를 주입하면 극히 독성이 강하다 (출처: djtech.net)  \n밤에 잠들기 전에 머릿속을 스쳐간 유쾌한 문구는 다음과 같았다:  \n> 고장 낫지 않은 것은 고치지 말라 (출처: AdviceSlip)  \n이처럼 가벼운 느낌을 일기에 적으며, 작은 부드러운 빛 조각을 주워 담아 보듯 느꼈다.",
+      "language_tag": "ZH + KO"
     },
     {
       "date": "2026-05-20",
       "log_path": "logs/2026/05/2026-05-20.md",
       "mood_record": "Don't wear clean trousers when walking your dog in the park.",
       "zh_diary": "2026-05-20，桐雾（Kiri）在窗边记录今天的思绪。今天没有特别的事，但就是莫名的心情很好。Don't wear clean trousers when walking your dog in the park.",
-      "random_language": "日本語"
+      "translated_diary": "2026 -05 -20、キリは今日の考えを窓際に記録する。今日は特別なことは何もありませんが、気分は良いです。公園で犬を散歩させるときは、清潔なズボンを着用しないでください。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-05-19",
       "log_path": "logs/2026/05/2026-05-19.md",
       "mood_record": "A problem shared is a problem halved.",
       "zh_diary": "2026-05-19  \n天空柔软，月光洒在旧屋角落，像抹淡粉的泪珠。早起时听朋友说，猫尿在黑光下会发光，仿佛它们把一条彩虹留给路人。  \n我坚信：“把问题说出来，问题就会减半。”于是我把这份小担忧悄悄分给日记页，感觉整整变轻了许多。  \n午后行走在河边，忽然朗朗上口“春潮带雨晚来急，野渡无人舟自横”，像是一首温柔的老歌，提醒我即使风景寂静，心中仍旧有春天。  \n今天的点滴，我用最温柔的文字记录，让每一个小确幸都成为心里一条微光的丝线。",
-      "random_language": "한국어"
+      "translated_diary": "2026-05-19  \n하늘은 부드럽고, 달빛은 가루로 얼룩진 눈물처럼 옛 집 모퉁이에 뿌려진다.일찍 일어났을 때 지나가는 사람들에게 무지개를 남긴 것처럼 검은 빛에 고양이 소변이 빛났다는 친구들의 이야기를 들었습니다.  \n나는 단호하게 믿는다. \"문제를 말하면 문제는 반으로 줄어들 것이다.\"그래서 나는 이 작은 걱정을 훨씬 가벼워진 느낌으로 일기장에 조용히 나눠주었다.  \n오후에 강가를 거닐다 문득 “봄 물결은 비와 밤으로 불안하고, 광야는 배가 없다” 고 말하며 온화한 옛 노래처럼 풍경이 고요해도 마음속에는 여전히 봄이 있다는 것을 일깨워 주었다.  \n오늘, 나는 가장 온화한 단어를 사용하여 모든 작은 재산이 내 마음 속에 반짝이는 비단 실이되도록 기록합니다.",
+      "language_tag": "ZH + KO"
     },
     {
       "date": "2026-05-18",
       "log_path": "logs/2026/05/2026-05-18.md",
       "mood_record": "Your smile could make someone's day, don't forget to wear it.",
       "zh_diary": "叮——2026-05-18的桐雾（Kiri）报道！翻开今天的笔记本，发现值得记住的事真不少！只顾眼前的利益而任人摆布……我已经……受够了……今天先好好休息吧，明天见～",
-      "random_language": "日本語"
+      "translated_diary": "叮—2026年5月18日の桐雾（Kiri）からご報告です。今日のノートを開いたら、記憶に留めておきたい出来事がとても多いと気づきました。眼前の利益だけを追い、他人に操られてしまうままに…もう、もう十分です。今日はゆっくり休んで、また明日お会いしましょう。",
+      "language_tag": "ZH + JP"
     },
     {
       "date": "2026-05-14",
       "log_path": "logs/2026/05/2026-05-14.md",
       "mood_record": "Never regret. If it's good, it's wonderful. If it's bad, it's experience.",
       "zh_diary": "2026年5月14日，天空像浅蓝的纸，轻轻抖动着雾气。  \n今天在咖啡店里，旁边的姑娘低声说：“Never regret. If it's good, it's wonderful. If it's bad, it's experience.” 这句提醒我，回忆不再是负担，而是温柔的光。  \n午后翻开笔记本，惊讶地看到一个小小趣闻：Saturday Night Live 的第一位女司仪竟是 Candace Bergen。想到她在聚光灯下的坚定，我不禁感受到自己的小小勇气。  \n夕风拂过窗台，若你是在我阴郁时爱上我，那我无话可说；但今天的阳光让我有力地笑着说“谢谢”，把这份温暖收进心坎。",
-      "random_language": "English"
+      "translated_diary": "May 14, 2026  \nThe sky lay like a sheet of pale blue paper, quivering softly under a mist that barely stirred.  \nIn a café today, a girl beside me whispered, “Never regret. If it’s good, it’s wonderful. If it’s bad, it’s experience.”  Those words shifted my memory from a heavy burden into a gentle light.  \nLater, I opened my notebook and found a small anecdote that surprised me: the first female host of *Saturday Night Live* was, in fact, Candace Bergen.  Thinking of her poised stance beneath the spotlight made me feel a quiet surge of courage in myself.  \nA breeze brushed the windowsill. If you had fallen for me in the midst of my gloom, I have nothing left to say; but today’s sunshine let me laugh openly, “Thank you,” and tuck that warmth deep into my heart.",
+      "language_tag": "ZH + EN"
     }
   ]
 }
