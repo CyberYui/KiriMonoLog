@@ -35,6 +35,31 @@ LANGUAGE_OPTIONS = {
     "ko": "한국어",
 }
 
+# 语言短名称映射（用于前端标签显示）
+# 每日日志内容包含中文和一种随机语言，标签格式为 "ZH + XX"
+LANGUAGE_SHORT_NAMES = {
+    "en": "EN",
+    "ja": "JP",
+    "ko": "KO",
+    "zh": "ZH",
+}
+
+# 旧版语言名称映射（兼容旧日志格式）
+# 旧日志使用语言全称（如 "日本語"、"English"），需转为短名称
+LEGACY_LANGUAGE_NAMES = {
+    "English": "EN",
+    "日本語": "JP",
+    "한국어": "KO",
+}
+
+# 短名称到语言全称映射（用于前端显示）
+SHORT_TO_FULL_NAME = {
+    "EN": "English",
+    "JP": "日本語",
+    "KO": "한국어",
+    "ZH": "中文",
+}
+
 # ── 3. AI 接口配置（Pollinations） ──
 # Pollinations.ai 提供免费的文本生成 API，无需注册和 API Key。
 # POLLINATIONS_TEXT_API     : API 基础 URL

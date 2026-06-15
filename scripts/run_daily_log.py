@@ -29,7 +29,7 @@ import random
 from pathlib import Path
 
 from kirimonolog.ai_client import generate_chinese_log, translate_text
-from kirimonolog.composer import choose_target_language, render_markdown
+from kirimonolog.composer import choose_target_language, render_markdown, build_language_tag
 from kirimonolog.config import PERSONA_NAME, PERSONA_PROFILE
 from kirimonolog.fetchers import gather_daily_materials
 from kirimonolog.web_exporter import export_web_logs_data
@@ -79,7 +79,7 @@ def main() -> int:
     translated = translate_text(zh_text, lang_code, lang_name)
 
     # Step 4: 渲染 Markdown
-    markdown = render_markdown(target_date, materials, zh_text, lang_name, translated)
+    markdown = render_markdown(target_date, materials, zh_text, lang_code, lang_name, translated)
 
     # Step 5: 写入文件
     output = build_log_path(repo_root, target_date)

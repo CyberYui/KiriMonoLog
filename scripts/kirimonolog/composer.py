@@ -15,7 +15,7 @@ import html
 import random
 from typing import Dict, List, Tuple
 
-from kirimonolog.config import LANGUAGE_OPTIONS
+from kirimonolog.config import LANGUAGE_OPTIONS, LANGUAGE_SHORT_NAMES
 
 # Material 类型别名
 Material = Dict[str, str]
@@ -29,6 +29,20 @@ def choose_target_language() -> Tuple[str, str]:
     """
     code = random.choice(list(LANGUAGE_OPTIONS.keys()))
     return code, LANGUAGE_OPTIONS[code]
+
+
+def build_language_tag(lang_code: str) -> str:
+    """生成前端显示用的语言标签。
+
+    每日日志包含中文和一种随机语言，标签格式为 "ZH + XX"。
+
+    Args:
+        lang_code: 目标语言 ISO 代码（如 "en"/"ja"/"ko"）
+
+    Returns:
+        语言标签字符串，如 "ZH + JP"
+    """
+    return f"ZH + {LANGUAGE_SHORT_NAMES.get(lang_code, lang_code.upper())}"
 
 
 def _materials_block(materials: List[Material]) -> str:
@@ -54,19 +68,20 @@ def _to_html_lines(text: str) -> str:
     return "<br>".join(html.escape(line) for line in text.splitlines() if line.strip())
 
 
-def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str, lang_name: str, translated_text: str) -> str:
+def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str, lang_code: str, lang_name: str, translated_text: str) -> str:
     """渲染完整的日志 Markdown 文档。
 
     输出结构：
     1. 标题：# YYYY-MM-DD · KiriMonoLog
     2. 今日素材：无序列表
     3. 今日心情日志（双语）：HTML 表格，左栏中文，右栏翻译
-    4. 随机语种标注
+    4. 内容语种标注（格式：ZH + XX）
 
     Args:
         date_value     : 日志日期
         materials      : 当日素材列表
         zh_text        : 中文日记正文
+        lang_code      : 目标语言 ISO 代码（如 "en"/"ja"/"ko"）
         lang_name      : 目标语言名称（用于标注）
         translated_text: 翻译后的文本
 
@@ -77,6 +92,8 @@ def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str
     # 将纯文本转为 HTML 行，适配表格单元格内的多行排版
     zh_html = _to_html_lines(zh_text)
     translated_html = _to_html_lines(translated_text)
+    # 生成语言标签（如 "ZH + JP"）
+    lang_tag = f"ZH + {LANGUAGE_SHORT_NAMES.get(lang_code, lang_code.upper())}"
 
     return (
         f"# {date_str} · KiriMonoLog\n\n"
@@ -87,5 +104,5 @@ def render_markdown(date_value: dt.date, materials: List[Material], zh_text: str
         "  <tr><th>中文原版</th><th>多语言版本</th></tr>\n"
         f"  <tr><td>{zh_html}</td><td>{translated_html}</td></tr>\n"
         "</table>\n\n"
-        f"> 本日随机语种：**{lang_name}**\n"
+        f"> 本日内容语种：**{lang_tag}**\n"
     )

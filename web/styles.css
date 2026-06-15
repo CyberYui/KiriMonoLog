@@ -208,8 +208,29 @@ body {
 }
 
 .diary {
-  margin: 0 0 16px;
+  margin: 0;
   white-space: pre-wrap;
+}
+
+.bilingual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.bilingual-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bilingual-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--subtext);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .log-link {
