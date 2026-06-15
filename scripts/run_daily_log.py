@@ -79,7 +79,7 @@ def main() -> int:
     translated = translate_text(zh_text, lang_code, lang_name)
 
     # Step 4: 渲染 Markdown
-    markdown = render_markdown(target_date, materials, zh_text, lang_name, translated)
+    markdown = render_markdown(target_date, materials, zh_text, lang_code, translated)
 
     # Step 5: 写入文件
     output = build_log_path(repo_root, target_date)
