@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-16T17:59:47.911059+00:00",
+  "generated_at_utc": "2026-06-17T17:22:31.772359+00:00",
   "records": [
+    {
+      "date": "2026-06-17",
+      "log_path": "logs/2026/06/2026-06-17.md",
+      "mood_record": "Some people would be better off if they took their own advice.",
+      "zh_diary": "叮——2026-06-17的桐雾（Kiri）报道！伸个大大的懒腰，和今天的自己说嗨～Some people would be better off if they took their own advice.明天也要元气满满哦！",
+      "translated_diary": "딩 - KIRI 보고서가 06/17/2026부터 시작됩니다! 오늘은 스트레칭을 하며 자신에게 인사를 해보세요 ~ 어떤 분들은 직접 조언을 해주시면 더 좋을 것 같아요. 내일도 에너지가 넘칠 거예요!",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-06-16",
       "log_path": "logs/2026/06/2026-06-16.md",
