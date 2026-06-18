@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-17T17:22:31.772359+00:00",
+  "generated_at_utc": "2026-06-18T17:27:29.328821+00:00",
   "records": [
+    {
+      "date": "2026-06-18",
+      "log_path": "logs/2026/06/2026-06-18.md",
+      "mood_record": "Everything matters, but nothing matters that much.",
+      "zh_diary": "2026-06-18的日记。\n桐雾（Kiri）在想，很多事情没有标准答案，重要的是你怎样看待它。今天学到的新功课：休息不是偷懒，是为下一段路积蓄力量。\nEverything matters, but nothing matters that much.",
+      "translated_diary": "Diary 2026 -06 -18.\nKiriさんは、多くのことに標準的な答えがないと考えています。重要なのは、あなたがそれをどのように考えるかです。今日学んだ新しい教訓：休息は怠惰ではなく、次のステップのための強さを構築することです。\nすべてが重要ですが、それほど重要ではありません。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-06-17",
       "log_path": "logs/2026/06/2026-06-17.md",
