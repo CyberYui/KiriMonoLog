@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-20T16:51:11.601428+00:00",
+  "generated_at_utc": "2026-06-21T16:54:09.367267+00:00",
   "records": [
+    {
+      "date": "2026-06-21",
+      "log_path": "logs/2026/06/2026-06-21.md",
+      "mood_record": "If you get stuck, try doing the opposite of what the solution requires.",
+      "zh_diary": "叮——2026-06-21的桐雾（Kiri）报道！伸个大大的懒腰，和今天的自己说嗨～If you get stuck, try doing the opposite of what the solution requires.明天也要元气满满哦！",
+      "translated_diary": "딕—2026년 6월 21일, 오라 \"桐雾(Kiri)\"가 전합니다. 긴 스트레칭 한 뒤 오늘의 나에게 인사해 봅시다. 만약 좌절한다면, 해결책이 요구하는 것의 반대를 시도해 보세요. 내일도 활기찬 기운으로 가득 차 있길 바랍니다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-06-20",
       "log_path": "logs/2026/06/2026-06-20.md",
