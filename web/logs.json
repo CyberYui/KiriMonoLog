@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-25T17:01:32.630902+00:00",
+  "generated_at_utc": "2026-06-26T16:59:21.546046+00:00",
   "records": [
+    {
+      "date": "2026-06-26",
+      "log_path": "logs/2026/06/2026-06-26.md",
+      "mood_record": "Big things have small beginnings.",
+      "zh_diary": "叮——2026-06-26的桐雾（Kiri）报道！今天也是被美食和好天气宠爱的一天呢！神即道，道即法，道法自然，如来。每一天都是新的故事，我们一起慢慢写。",
+      "translated_diary": "Ping—Kiri’s report from June 26, 2026. Today, again, I was indulged by good food and fine weather.  \nThe divine is the Way, the Way is the Law, and the Law flows naturally, as the Tathāgata does.  \nEvery day is a fresh story, and together we write it, gently and slowly.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-06-25",
       "log_path": "logs/2026/06/2026-06-25.md",
