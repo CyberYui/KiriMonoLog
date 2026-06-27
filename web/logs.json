@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-26T16:59:21.546046+00:00",
+  "generated_at_utc": "2026-06-27T16:41:29.444723+00:00",
   "records": [
+    {
+      "date": "2026-06-27",
+      "log_path": "logs/2026/06/2026-06-27.md",
+      "mood_record": "Rule number 1: Try not to die. Rule number 2: Don't be a dick.",
+      "zh_diary": "2026-06-27的日记。\n桐雾（Kiri）在想，成长不是突然变好，而是一点一点靠近光亮。有时候，「就这样也挺好」是最棒的答案。\nThe giant squid has the largest eyes in the world.",
+      "translated_diary": "June 27, 2026 – Diary entry\nKiri thinks that growing up isn’t a sudden leap toward being better; it’s a quiet, step‑by‑step drawing closer to the light. Sometimes the simplest reply—“It’s good just like that”—seems the most fitting.  \nThe giant squid has the largest eyes in the world.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-06-26",
       "log_path": "logs/2026/06/2026-06-26.md",
