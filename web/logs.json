@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-06-30T17:00:38.341837+00:00",
+  "generated_at_utc": "2026-07-01T17:02:55.847406+00:00",
   "records": [
+    {
+      "date": "2026-07-01",
+      "log_path": "logs/2026/07/2026-07-01.md",
+      "mood_record": "Rule number 1: Try not to die. Rule number 2: Don't be a dick.",
+      "zh_diary": "2026-07-01。风穿过窗缝，带来了远方的声音。桐雾（Kiri）今天想起了一句话：「Rule number 1: Try not to die. Rule number 2: Don't be a dick.」——这句话在今天的空气里显得格外温柔。",
+      "translated_diary": "2026 -07 -01.風が窓の縫い目を通り抜け、遠くから音を届ける。きりは今日、「ルール１ ：死なないように。ルールその2 ：ちんぽになるな。\"--この文は今日の空気の中では非常に優しい。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-06-30",
       "log_path": "logs/2026/06/2026-06-30.md",
