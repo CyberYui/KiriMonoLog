@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-03T16:48:10.698196+00:00",
+  "generated_at_utc": "2026-07-04T16:38:26.946698+00:00",
   "records": [
+    {
+      "date": "2026-07-04",
+      "log_path": "logs/2026/07/2026-07-04.md",
+      "mood_record": "Mercy is the better part of justice.",
+      "zh_diary": "今天是2026-07-04，一个淡淡阳光洒进窗台的日子。桐雾（Kiri）翻着今天收集的小碎片，「我本来不想使出这一招的」——这是我今天最想记住的一句话。安静地度过一天，也是一种了不起的事。",
+      "translated_diary": "July 4, 2026—a day when a gentle sunbeams filter into the windowsill.  \nKiri flips through the tiny fragments she gathered today, and the line that lingers most is:  \n*“I never intended to use that trick.”*  \nSpending a quiet day is, too, a remarkable thing.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-07-03",
       "log_path": "logs/2026/07/2026-07-03.md",
