@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-06T17:17:58.350673+00:00",
+  "generated_at_utc": "2026-07-07T17:02:29.255125+00:00",
   "records": [
+    {
+      "date": "2026-07-07",
+      "log_path": "logs/2026/07/2026-07-07.md",
+      "mood_record": "Visitors are like fish: As much as you might like them, after three days they start to smell.",
+      "zh_diary": "叮——2026-07-07的桐雾（Kiri）报道！伸个大大的懒腰，和今天的自己说嗨～Visitors are like fish: As much as you might like them, after three days they start to smell.明天也要元气满满哦！",
+      "translated_diary": "Ding - Kiri report from 07/07/2026! Visitors are like fish: As much as you might like them, after three days they start to smell. Tomorrow will also be full of energy!",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-07-06",
       "log_path": "logs/2026/07/2026-07-06.md",
