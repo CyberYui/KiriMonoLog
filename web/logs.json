@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-13T17:02:20.359563+00:00",
+  "generated_at_utc": "2026-07-14T16:44:12.216966+00:00",
   "records": [
+    {
+      "date": "2026-07-14",
+      "log_path": "logs/2026/07/2026-07-14.md",
+      "mood_record": "Taking photos with tablet devices looks weird.",
+      "zh_diary": "2026-07-14，桐雾（Kiri）在黄昏的光里写下一段话。偶然听到一首歌，旋律像极了某个久远的午后。Taking photos with tablet devices looks weird.",
+      "translated_diary": "2026년 7월 14일, 桐雾(Kiri)는 황혼빛 아래에서 한 문장을 적었다. 우연히 들은 노래의 선율이 마치 오래된 어느 오후를 떠올리게 했으며, 그런 기억을 떠올리며 태블릿으로 사진을 찍는 것이 다소 어색하게 느껴졌다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-07-13",
       "log_path": "logs/2026/07/2026-07-13.md",
