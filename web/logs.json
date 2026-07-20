@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-19T16:35:23.230477+00:00",
+  "generated_at_utc": "2026-07-20T16:47:43.218207+00:00",
   "records": [
+    {
+      "date": "2026-07-20",
+      "log_path": "logs/2026/07/2026-07-20.md",
+      "mood_record": "今日心情记录已归档",
+      "zh_diary": "今天午后，窗外阳光像琥珀，我在书桌前轻抿抹茶，翻到一段奇闻：People photoc",
+      "translated_diary": "오늘 오후, 창가에 비친 햇살은 마치 호박빛 같았고, 책상 앞에서 나는 녹차를 가볍게 한 모금씩 마시며, 문서 한 장을 넘기다가 흥미로운 이야기를 발견했다: People photoc",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-07-19",
       "log_path": "logs/2026/07/2026-07-19.md",
