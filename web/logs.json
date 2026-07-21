@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-20T16:47:43.218207+00:00",
+  "generated_at_utc": "2026-07-21T16:48:20.443710+00:00",
   "records": [
+    {
+      "date": "2026-07-21",
+      "log_path": "logs/2026/07/2026-07-21.md",
+      "mood_record": "If you're going bald, don't comb your hair over your bald patch.",
+      "zh_diary": "2026-07-21的日记。\n桐雾（Kiri）在想，成长不是突然变好，而是一点一点靠近光亮。有时候，「就这样也挺好」是最棒的答案。\nIf you're going bald, don't comb your hair over your bald patch.",
+      "translated_diary": "2026 -07 -21の日記。\nキリは、成長とは急に良くなることではなく、少しずつ光に近づくことだと考えています。それが最善の答えである場合もあります。\n髪の毛が禿げている場合は、髪の毛を禿げたパッチの上にまとめないでください。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-07-20",
       "log_path": "logs/2026/07/2026-07-20.md",
