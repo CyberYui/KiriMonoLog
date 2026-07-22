@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-21T16:48:20.443710+00:00",
+  "generated_at_utc": "2026-07-22T16:49:27.954884+00:00",
   "records": [
+    {
+      "date": "2026-07-22",
+      "log_path": "logs/2026/07/2026-07-22.md",
+      "mood_record": "Everything in moderation, including moderation itself.",
+      "zh_diary": "今天是2026-07-22，一个风很轻很轻的日子。桐雾（Kiri）翻着今天收集的小碎片，「The only 15-letter word that can be spelled without repeating a letter is uncopyrightable.」——这是我今天最想记住的一句话。有时候最好的治愈，就是允许自己什么都不做。",
+      "translated_diary": "今日は2026年7月22日で、非常に軽い風が吹く非常に明るい日です。キリは今日集めた小片をひっくり返し、「文字を繰り返さずに綴ることができる唯一の15文字の単語は著作権ではありません。\"--これは私が今日最も覚えておきたい引用です。時には最善の治療法は、何もしないようにすることです。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-07-21",
       "log_path": "logs/2026/07/2026-07-21.md",
