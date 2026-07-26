@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-25T16:35:53.980066+00:00",
+  "generated_at_utc": "2026-07-26T16:36:04.063914+00:00",
   "records": [
+    {
+      "date": "2026-07-26",
+      "log_path": "logs/2026/07/2026-07-26.md",
+      "mood_record": "As you get older, learn never to trust a fart.",
+      "zh_diary": "2026-07-26的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\nAs you get older, learn never to trust a fart.",
+      "translated_diary": "2026 -07 -26の日記。\nキリは、幸福とはおそらく、これらの美しく不完全な日常のことであると考えています。鏡の中の自分に微笑んでみてください。気持ちいいです。\n年をとるにつれて、決しておならを信用しないことを学びましょう。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-07-25",
       "log_path": "logs/2026/07/2026-07-25.md",
