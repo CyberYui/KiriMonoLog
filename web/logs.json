@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-26T16:36:04.063914+00:00",
+  "generated_at_utc": "2026-07-27T16:58:27.802544+00:00",
   "records": [
+    {
+      "date": "2026-07-27",
+      "log_path": "logs/2026/07/2026-07-27.md",
+      "mood_record": "Never pay full price for a sofa at DFS.",
+      "zh_diary": "今天是2026-07-27，一个淡淡阳光洒进窗台的日子。桐雾（Kiri）翻着今天收集的小碎片，「山外阁楼尘世离，落霞明，山无情。遍野蝉鸣，残月上三巡。」——这是我今天最想记住的一句话。安静地度过一天，也是一种了不起的事。",
+      "translated_diary": "Today is 2026-07-27, a day when the faint sunlight spills into the window sill. Kiri turned over the small fragments collected today, \"The loft outside the mountain is out of the world, the sun is falling, and the mountain is ruthless. Cicadas screamed all over the field, and the remnant moon went up for three rounds.\" --This is the quote I most want to remember today. Spending a day in peace is also a great thing.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-07-26",
       "log_path": "logs/2026/07/2026-07-26.md",
