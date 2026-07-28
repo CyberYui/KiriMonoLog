@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-27T16:58:27.802544+00:00",
+  "generated_at_utc": "2026-07-28T16:51:01.563721+00:00",
   "records": [
+    {
+      "date": "2026-07-28",
+      "log_path": "logs/2026/07/2026-07-28.md",
+      "mood_record": "今日心情记录已归档",
+      "zh_diary": "2026-07-28，桐雾（Kiri）在夜晚的灯光下整理心情。翻开日历才发现，时间真的过得比想象中快。A rat can last longer without water than a camel.",
+      "translated_diary": "2026-07-28, Kiri는 저녁 조명에서 정리합니다. 달력을 열어보니 정말 시간이 생각보다 빨리 지나간다는 걸 깨달았어요. 쥐는 낙타보다 물 없이도 더 오래 살 수 있습니다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-07-27",
       "log_path": "logs/2026/07/2026-07-27.md",
