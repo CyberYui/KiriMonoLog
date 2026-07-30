@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-07-29T16:45:43.048305+00:00",
+  "generated_at_utc": "2026-07-30T16:50:20.456849+00:00",
   "records": [
+    {
+      "date": "2026-07-30",
+      "log_path": "logs/2026/07/2026-07-30.md",
+      "mood_record": "Don't assume anything is possible or impossible until you've asked the people who will be doing the work.",
+      "zh_diary": "2026-07-30的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\n我若说：黑夜必定遮蔽我，我周围的亮光必成为黑夜。",
+      "translated_diary": "2026년 7월 30일의 일기.\n키리는 행복은 아무래도 멀쩡하고 불완전한 일상일 거라고 생각해요.거울에 비친 자신에게 미소를 지어보세요. 기분이 좋습니다.\n내가 만일 말하기를 밤이 나를 덮고 나를 두른 빛이 밤이 되리라 하면",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-07-29",
       "log_path": "logs/2026/07/2026-07-29.md",
