@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-01T16:36:49.829490+00:00",
+  "generated_at_utc": "2026-08-02T16:36:31.315468+00:00",
   "records": [
+    {
+      "date": "2026-08-02",
+      "log_path": "logs/2026/08/2026-08-02.md",
+      "mood_record": "Make choices and dont look back.",
+      "zh_diary": "2026-08-02的日记。\n桐雾（Kiri）在想，很多事情没有标准答案，重要的是你怎样看待它。今天学到的新功课：休息不是偷懒，是为下一段路积蓄力量。\nMake choices and dont look back.",
+      "translated_diary": "2026-08-02의 일기.\nKiri는 많은 것들이 표준적인 대답을 가지고 있지 않다고 생각하고 있습니다. 중요한 것은 당신이 그것에 대해 어떻게 생각하는지입니다.오늘 배운 새로운 교훈: 휴식은 게으름이 아니라 다음 단계를 위해 힘을 키우는 것입니다.\n선택을 하고 뒤돌아보지 마세요.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-08-01",
       "log_path": "logs/2026/08/2026-08-01.md",
