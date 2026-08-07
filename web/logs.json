@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-05T16:51:46.556800+00:00",
+  "generated_at_utc": "2026-08-07T17:10:22.483942+00:00",
   "records": [
+    {
+      "date": "2026-08-07",
+      "log_path": "logs/2026/08/2026-08-07.md",
+      "mood_record": "Don't eat non-snow-coloured snow.",
+      "zh_diary": "2026-08-07的日记。\n桐雾（Kiri）在想，成长不是突然变好，而是一点一点靠近光亮。有时候，「就这样也挺好」是最棒的答案。\n一板一眼，就会滋生弱点。",
+      "translated_diary": "Diary on 08/07/2026.\nKiri is thinking that growth is not about suddenly getting better, but getting closer to the light bit by bit.Sometimes that's the best answer.\nA single glance breeds weakness.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-05",
       "log_path": "logs/2026/08/2026-08-05.md",
