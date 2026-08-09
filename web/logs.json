@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-08T16:54:28.263907+00:00",
+  "generated_at_utc": "2026-08-09T16:56:32.300484+00:00",
   "records": [
+    {
+      "date": "2026-08-09",
+      "log_path": "logs/2026/08/2026-08-09.md",
+      "mood_record": "Put a piece of kitchen roll in with your bag of leaves to make them last longer.",
+      "zh_diary": "2026-08-09，桐雾（Kiri）在窗边记录今天的思绪。今天没有特别的事，但就是莫名的心情很好。Put a piece of kitchen roll in with your bag of leaves to make them last longer.",
+      "translated_diary": "2026-08-09, 키리는 오늘의 생각을 창가에 기록합니다. 오늘은 특별한 건 없지만 기분은 좋다. 나뭇잎을 더 오래 사용할 수 있도록 주방 롤에 나뭇잎을 넣으세요.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-08-08",
       "log_path": "logs/2026/08/2026-08-08.md",
