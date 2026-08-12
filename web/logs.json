@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-11T17:14:42.467284+00:00",
+  "generated_at_utc": "2026-08-12T17:15:04.373341+00:00",
   "records": [
+    {
+      "date": "2026-08-12",
+      "log_path": "logs/2026/08/2026-08-12.md",
+      "mood_record": "Cars are bad investments.",
+      "zh_diary": "今天是2026-08-12，一个风很轻很轻的日子。桐雾（Kiri）翻着今天收集的小碎片，「耍一段南拳北腿，中华好武功；唱一曲南腔北调，神州好逍遥。」——这是我今天最想记住的一句话。有时候最好的治愈，就是允许自己什么都不做。",
+      "translated_diary": "Today is 2026-08-12, a very light day with very light wind. Kiri turned over the small pieces collected today, \"Playing a piece of south fist and north leg, Chinese good martial arts; singing a song of south and north, Shenzhou is so free.\" --This is the quote I most want to remember today. Sometimes the best cure is to allow yourself to do nothing.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-11",
       "log_path": "logs/2026/08/2026-08-11.md",
