@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-12T17:15:04.373341+00:00",
+  "generated_at_utc": "2026-08-13T17:15:06.934657+00:00",
   "records": [
+    {
+      "date": "2026-08-13",
+      "log_path": "logs/2026/08/2026-08-13.md",
+      "mood_record": "You can fail at what you don't want. So you might as well take a chance on doing what you love.",
+      "zh_diary": "2026-08-13，桐雾（Kiri）在窗边记录今天的思绪。今天没有特别的事，但就是莫名的心情很好。You can fail at what you don't want. So you might as well take a chance on doing what you love.",
+      "translated_diary": "2026-08-13, Kiri records today's thoughts by the window. There is nothing special today, but it is in a good mood. You can fail at what you don't want. So you might as well take a chance on doing what you love.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-12",
       "log_path": "logs/2026/08/2026-08-12.md",
