@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-13T17:15:06.934657+00:00",
+  "generated_at_utc": "2026-08-14T17:13:26.263689+00:00",
   "records": [
+    {
+      "date": "2026-08-14",
+      "log_path": "logs/2026/08/2026-08-14.md",
+      "mood_record": "If you don't want something to be public, don't post it on the Internet.",
+      "zh_diary": "2026-08-14。风穿过窗缝，带来了远方的声音。桐雾（Kiri）今天想起了一句话：「如果可以，请让我们慢慢了解，慢慢喜欢。」——这句话在今天的空气里显得格外温柔。",
+      "translated_diary": "2026-08-14. 바람이 창문 솔기를 통과하여 멀리서 소리가 납니다. Kiri는 오늘 한 문장을 기억했습니다. “가능하다면 천천히 알려주시고 천천히 즐기세요.\" -이 문장은 오늘날의 공기에서 매우 부드럽습니다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-08-13",
       "log_path": "logs/2026/08/2026-08-13.md",
