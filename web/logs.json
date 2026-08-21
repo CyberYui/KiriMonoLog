@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-20T16:52:46.444942+00:00",
+  "generated_at_utc": "2026-08-21T16:53:38.410965+00:00",
   "records": [
+    {
+      "date": "2026-08-21",
+      "log_path": "logs/2026/08/2026-08-21.md",
+      "mood_record": "If you're going bald, don't comb your hair over your bald patch.",
+      "zh_diary": "今天是2026-08-21，一个淡淡阳光洒进窗台的日子。桐雾（Kiri）翻着今天收集的小碎片，「Two-thirds of the world`s eggplant is grown in New Jersey.」——这是我今天最想记住的一句话。安静地度过一天，也是一种了不起的事。",
+      "translated_diary": "今日は2026年8月21日、かすかな日光が窓の土台にこぼれ落ちる日です。キリは今日集めた小片をひっくり返し、「世界のナスの3分の2はニュージャージーで栽培されています。\"--これは私が今日最も覚えておきたい引用です。安らかな1日を過ごすことも素晴らしいことです。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-08-20",
       "log_path": "logs/2026/08/2026-08-20.md",
