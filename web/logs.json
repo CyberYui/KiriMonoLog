@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-21T16:53:38.410965+00:00",
+  "generated_at_utc": "2026-08-22T16:43:02.225069+00:00",
   "records": [
+    {
+      "date": "2026-08-22",
+      "log_path": "logs/2026/08/2026-08-22.md",
+      "mood_record": "Do not seek praise, seek criticism.",
+      "zh_diary": "2026-08-22，桐雾（Kiri）在夜晚的灯光下整理心情。翻开日历才发现，时间真的过得比想象中快。Do not seek praise, seek criticism.",
+      "translated_diary": "2026-08-22, Kiri tidies up in the evening lights. Opening the calendar, I realized that time is really passing faster than I thought. Do not seek praise, seek criticism.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-21",
       "log_path": "logs/2026/08/2026-08-21.md",
