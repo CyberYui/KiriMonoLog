@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-22T16:43:02.225069+00:00",
+  "generated_at_utc": "2026-08-23T16:44:50.972403+00:00",
   "records": [
+    {
+      "date": "2026-08-23",
+      "log_path": "logs/2026/08/2026-08-23.md",
+      "mood_record": "Put a piece of kitchen roll in with your bag of leaves to make them last longer.",
+      "zh_diary": "2026-08-23。云在慢慢走，时间也是。桐雾（Kiri）今天想起了一句话：「The average human will shed 40 pounds of skin in a lifetime.」——把它记下来，也许未来的哪一天会再遇见它。",
+      "translated_diary": "2026-08-23. The clouds are walking slowly, and so is time. Kiri remembered a sentence today: “The average human will shed 40 pounds of skin in a lifetime.” -Jot it down, and maybe some day in the future you'll see it again.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-22",
       "log_path": "logs/2026/08/2026-08-22.md",
