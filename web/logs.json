@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-25T16:57:48.495524+00:00",
+  "generated_at_utc": "2026-08-26T17:50:13.274481+00:00",
   "records": [
+    {
+      "date": "2026-08-26",
+      "log_path": "logs/2026/08/2026-08-26.md",
+      "mood_record": "Never write in an email to someone, something which you wouldn't say to that person's face.",
+      "zh_diary": "今天是2026-08-26，一个普普通通却让人安心的日子。桐雾（Kiri）翻着今天收集的小碎片，「Never write in an email to someone, something which you wouldn't say to that person's face.」——这是我今天最想记住的一句话。慢慢来，日子会自己排好队的。",
+      "translated_diary": "오늘은 2026-08-26, 평범하지만 안심할 수 있는 날입니다. Kiri는 오늘 수집한 작은 조각들을 넘겨 보았습니다. \"절대로 누군가에게 이메일로 쓰지 마십시오. 그 사람의 얼굴에 말하지 않을 것입니다.\" --이것이 제가 오늘 가장 기억하고 싶은 명언입니다. 천천히, 날이 저절로 줄을 서게 될 것입니다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-08-25",
       "log_path": "logs/2026/08/2026-08-25.md",
