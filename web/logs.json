@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-26T17:50:13.274481+00:00",
+  "generated_at_utc": "2026-08-28T00:58:19.742731+00:00",
   "records": [
+    {
+      "date": "2026-08-28",
+      "log_path": "logs/2026/08/2026-08-28.md",
+      "mood_record": "If you get stuck, try doing the opposite of what the solution requires.",
+      "zh_diary": "2026-08-28。午后的光影在地板上缓缓移动。桐雾（Kiri）今天想起了一句话：「If you get stuck, try doing the opposite of what the solution requires.」——有些道理离我们很近，只是平时太忙，没空听见它们。",
+      "translated_diary": "2026-08-28. The afternoon light and shadow move slowly on the floor. Kiri remembered a sentence today: “If you get stuck, try doing the opposite of what the solution requires.\" --Some truths are very close to us, but they are usually too busy to hear them.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-26",
       "log_path": "logs/2026/08/2026-08-26.md",
