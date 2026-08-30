@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-29T19:25:48.060201+00:00",
+  "generated_at_utc": "2026-08-30T19:20:20.252242+00:00",
   "records": [
+    {
+      "date": "2026-08-30",
+      "log_path": "logs/2026/08/2026-08-30.md",
+      "mood_record": "One of the top five regrets people have is that they didn't stay in contact with friends.",
+      "zh_diary": "今天是2026-08-30，一个普普通通却让人安心的日子。桐雾（Kiri）翻着今天收集的小碎片，「Elwood Edwards did the voice for the AOL sound files (i.e. “You’ve got Mail!”).」——这是我今天最想记住的一句话。慢慢来，日子会自己排好队的。",
+      "translated_diary": "今日は2026年8月30日、平凡だが安心の日です。キリは今日収集した小さな作品を引き渡しました。「エルウッド・エドワーズがAOLのサウンドファイルのボイスをしました（すなわち、「あなたはメールを持っています！」）。\"--これは私が今日最も覚えておきたい引用です。ゆっくりと、日は自力で並びます。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-08-29",
       "log_path": "logs/2026/08/2026-08-29.md",
