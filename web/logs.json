@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-30T19:20:20.252242+00:00",
+  "generated_at_utc": "2026-08-31T21:29:36.518098+00:00",
   "records": [
+    {
+      "date": "2026-08-31",
+      "log_path": "logs/2026/08/2026-08-31.md",
+      "mood_record": "Rule number 1: Try not to die. Rule number 2: Don't be a dick.",
+      "zh_diary": "2026-08-31，桐雾（Kiri）在黄昏的光里写下一段话。偶然听到一首歌，旋律像极了某个久远的午后。Months that begin on a Sunday will always have a `Friday the 13th`.",
+      "translated_diary": "2026-08-31, Kiri writes a sentence in the light of dusk. I heard a song by chance, and the melody was like a long afternoon. Months that begin on a Sunday will always have a `Friday the 13th`.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-30",
       "log_path": "logs/2026/08/2026-08-30.md",
