@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-08-31T21:29:36.518098+00:00",
+  "generated_at_utc": "2026-09-01T19:25:13.481413+00:00",
   "records": [
+    {
+      "date": "2026-09-01",
+      "log_path": "logs/2026/09/2026-09-01.md",
+      "mood_record": "You will always regret the round of JÃ¤germeister.",
+      "zh_diary": "2026-09-01的日记。\n桐雾（Kiri）在想，成长不是突然变好，而是一点一点靠近光亮。有时候，「就这样也挺好」是最棒的答案。\nYou will always regret the round of JÃ¤germeister.",
+      "translated_diary": "Diary on 09/01/2026.\nKiri is thinking that growth is not about suddenly getting better, but getting closer to the light bit by bit.Sometimes that's the best answer.\nYou will always regret the round of JÃ ¤ germeister.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-08-31",
       "log_path": "logs/2026/08/2026-08-31.md",
