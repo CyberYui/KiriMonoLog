@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-09-04T19:00:14.708055+00:00",
+  "generated_at_utc": "2026-09-05T18:20:57.217372+00:00",
   "records": [
+    {
+      "date": "2026-09-05",
+      "log_path": "logs/2026/09/2026-09-05.md",
+      "mood_record": "A common regret in life is wishing one had the courage to be ones true self.",
+      "zh_diary": "叮——2026-09-05的桐雾（Kiri）报道！翻开今天的笔记本，发现值得记住的事真不少！A snail can sleep for three years.今天先好好休息吧，明天见～",
+      "translated_diary": "Ding - Kiri가 2026년 9월 5일에 보고했습니다! 오늘 공책을 읽으면서 기억할 만한 것들이 많다는 것을 알았습니다! 달팽이는 3년 동안 잠을 잘 수 있습니다. 오늘은 편히 쉬시고, 내일 뵙겠습니다 ~",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-09-04",
       "log_path": "logs/2026/09/2026-09-04.md",
