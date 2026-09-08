@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-09-07T19:59:27.795392+00:00",
+  "generated_at_utc": "2026-09-08T19:27:01.474632+00:00",
   "records": [
+    {
+      "date": "2026-09-08",
+      "log_path": "logs/2026/09/2026-09-08.md",
+      "mood_record": "Repeat people's names when you meet them.",
+      "zh_diary": "2026-09-08，桐雾（Kiri）在夜晚的灯光下整理心情。翻开日历才发现，时间真的过得比想象中快。Repeat people's names when you meet them.",
+      "translated_diary": "2026-09-08, Kiri는 저녁 조명에서 정리합니다. 달력을 열어보니 정말 시간이 생각보다 빨리 지나간다는 걸 깨달았어요. 만나면 다른 사람의 이름을 반복하세요.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-09-07",
       "log_path": "logs/2026/09/2026-09-07.md",
