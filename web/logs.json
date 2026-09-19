@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-09-18T19:03:47.097388+00:00",
+  "generated_at_utc": "2026-09-19T18:38:12.884914+00:00",
   "records": [
+    {
+      "date": "2026-09-19",
+      "log_path": "logs/2026/09/2026-09-19.md",
+      "mood_record": "Stop using the term \"busy\" as an excuse.",
+      "zh_diary": "The account behind this API key doesn't have enough credits. Please [top up](https://enter.pollinations.ai/top-up?ref=agent_low_balance_topup) or [complete a quest](https://enter.pollinations.ai/quests?ref=agent_low_balance_quests), then try again.\nIf this isn’t your Pollinations account, contact whoever runs the app or service you’re using.",
+      "translated_diary": "The account behind this API key doesn't have enough credits. Please [top up](https://enter.pollinations.ai/top-up?ref=agent_low_balance_topup) or [complete a quest](https://enter.pollinations.ai/quests?ref=agent_low_balance_quests), then try again.\nIf this isn’t your Pollinations account, contact whoever runs the app or service you’re using.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-09-18",
       "log_path": "logs/2026/09/2026-09-18.md",
