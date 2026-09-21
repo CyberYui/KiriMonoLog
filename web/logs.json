@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-09-20T18:51:13.103350+00:00",
+  "generated_at_utc": "2026-09-21T20:26:58.533237+00:00",
   "records": [
+    {
+      "date": "2026-09-21",
+      "log_path": "logs/2026/09/2026-09-21.md",
+      "mood_record": "Don't wear clean trousers when walking your dog in the park.",
+      "zh_diary": "2026-09-21，桐雾（Kiri）在黄昏的光里写下一段话。偶然听到一首歌，旋律像极了某个久远的午后。Don't wear clean trousers when walking your dog in the park.",
+      "translated_diary": "2026-09-21  \n통우(Kiri)가 황혼의 빛에 물든 채 한 줄을 적었다. 우연히 들은 한 노래의 멜로디가 먼 옛날의 한 오후를 떠올리게 했다.  \n공원에서 개를 산책할 때 깨끗한 바지를 입지 마세요.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-09-20",
       "log_path": "logs/2026/09/2026-09-20.md",
