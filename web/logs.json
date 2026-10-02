@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-01T21:03:26.721879+00:00",
+  "generated_at_utc": "2026-10-02T20:46:57.803126+00:00",
   "records": [
+    {
+      "date": "2026-10-02",
+      "log_path": "logs/2026/10/2026-10-02.md",
+      "mood_record": "Don't eat anything your grandparents wouldn't recognise as food.",
+      "zh_diary": "2026-10-02。午后的光影在地板上缓缓移动。桐雾（Kiri）今天想起了一句话：「Don't eat anything your grandparents wouldn't recognise as food.」——有些道理离我们很近，只是平时太忙，没空听见它们。",
+      "translated_diary": "2026-10-02. The afternoon light moves slowly on the floor. Kiri remembered a saying today: “Don't eat anything your grandparents wouldn't recognize as food.\" --Some truths are very close to us, but they are usually too busy to hear them.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-10-01",
       "log_path": "logs/2026/10/2026-10-01.md",
