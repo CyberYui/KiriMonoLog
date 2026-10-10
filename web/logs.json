@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-09T20:57:09.664654+00:00",
+  "generated_at_utc": "2026-10-10T20:05:56.122091+00:00",
   "records": [
+    {
+      "date": "2026-10-10",
+      "log_path": "logs/2026/10/2026-10-10.md",
+      "mood_record": "When faced with a choice, do both.",
+      "zh_diary": "2026-10-10，桐雾（Kiri）在窗边记录今天的思绪。今天没有特别的事，但就是莫名的心情很好。When faced with a choice, do both.",
+      "translated_diary": "2026-10-10, 키리는 오늘의 생각을 창가에 기록합니다. 오늘은 특별한 건 없지만 기분은 좋다. 선택에 직면하면 둘 다 하십시오.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-10-09",
       "log_path": "logs/2026/10/2026-10-09.md",
