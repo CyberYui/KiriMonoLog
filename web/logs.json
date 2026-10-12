@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-11T20:20:54.404559+00:00",
+  "generated_at_utc": "2026-10-12T23:01:28.656492+00:00",
   "records": [
+    {
+      "date": "2026-10-12",
+      "log_path": "logs/2026/10/2026-10-12.md",
+      "mood_record": "When you're looking up at birds flying overhead, keep your mouth closed.",
+      "zh_diary": "叮——2026-10-12的桐雾（Kiri）报道！翻开今天的笔记本，发现值得记住的事真不少！浮生只合尊前老。雪满长安道。今天先好好休息吧，明天见～",
+      "translated_diary": "Ding - Kiri report from 10/12/2026! Opening today's notebook, I found that there are a lot of things worth remembering! Floating life was only as old as before. Snow covered Chang 'an. Take a good rest today, see you tomorrow ~",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-10-11",
       "log_path": "logs/2026/10/2026-10-11.md",
