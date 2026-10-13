@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-12T23:01:28.656492+00:00",
+  "generated_at_utc": "2026-10-13T21:18:45.659446+00:00",
   "records": [
+    {
+      "date": "2026-10-13",
+      "log_path": "logs/2026/10/2026-10-13.md",
+      "mood_record": "Always block trolls.",
+      "zh_diary": "2026-10-13的日记。\n桐雾（Kiri）在想，幸福大概就是这些细碎的、不完美的日常。试着对镜子里的自己笑了一下，感觉还不错。\nThe praying mantis is the only insect that can turn its head",
+      "translated_diary": "2026년 10월 13일의 일기.\n키리는 행복은 아무래도 멀쩡하고 불완전한 일상일 거라고 생각해요.거울에 비친 자신에게 미소를 지어보세요. 기분이 좋습니다.\n기도하는 사마귀는 고개를 돌릴 수 있는 유일한 곤충입니다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-10-12",
       "log_path": "logs/2026/10/2026-10-12.md",
