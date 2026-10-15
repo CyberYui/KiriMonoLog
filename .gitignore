@@ -25,3 +25,6 @@ htmlcov/
 
 # 隔离工作区目录
 .worktrees/
+.claude/
+AGENTS.md
+CLAUDE.md
