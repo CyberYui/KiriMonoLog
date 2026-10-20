@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-19T21:06:50.705806+00:00",
+  "generated_at_utc": "2026-10-20T20:01:07.150075+00:00",
   "records": [
+    {
+      "date": "2026-10-20",
+      "log_path": "logs/2026/10/2026-10-20.md",
+      "mood_record": "Try using an old idea.",
+      "zh_diary": "2026-10-20。云在慢慢走，时间也是。桐雾（Kiri）今天想起了一句话：「In medieval France, unfaithful wives were made to chase a chicken through town naked.」——把它记下来，也许未来的哪一天会再遇见它。",
+      "translated_diary": "2026-10-20. The clouds are walking slowly, and so is time. Kiri remembered a sentence today: “In medieval France, unfaithful wives were made to chase a chicken through town naked.” -Jot it down, and maybe some day in the future you'll see it again.",
+      "language_tag": "ZH + EN"
+    },
     {
       "date": "2026-10-19",
       "log_path": "logs/2026/10/2026-10-19.md",
