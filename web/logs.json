@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-22T20:10:14.058387+00:00",
+  "generated_at_utc": "2026-10-23T19:58:23.814815+00:00",
   "records": [
+    {
+      "date": "2026-10-23",
+      "log_path": "logs/2026/10/2026-10-23.md",
+      "mood_record": "Never regret. If it's good, it's wonderful. If it's bad, it's experience.",
+      "zh_diary": "今天是2026-10-23，一个普普通通却让人安心的日子。桐雾（Kiri）翻着今天收集的小碎片，「Never regret. If it's good, it's wonderful. If it's bad, it's experience.」——这是我今天最想记住的一句话。慢慢来，日子会自己排好队的。",
+      "translated_diary": "今日は2026年10月23日、平凡だが安心の日です。きりは今日集めた小片をひっくり返し、「後悔しないで。うまければすばらしい。それが悪いなら、それは経験です。\"--これは私が今日最も覚えておきたい引用です。ゆっくりと、日は自力で並びます。",
+      "language_tag": "ZH + JP"
+    },
     {
       "date": "2026-10-22",
       "log_path": "logs/2026/10/2026-10-22.md",
