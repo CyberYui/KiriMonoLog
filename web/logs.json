@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-10-27T20:44:08.555267+00:00",
+  "generated_at_utc": "2026-10-28T21:08:22.419379+00:00",
   "records": [
+    {
+      "date": "2026-10-28",
+      "log_path": "logs/2026/10/2026-10-28.md",
+      "mood_record": "Once in a while, eat some sweets you used to enjoy when you were younger.",
+      "zh_diary": "今天是2026-10-28，一个风很轻很轻的日子。桐雾（Kiri）翻着今天收集的小碎片，「Once in a while, eat some sweets you used to enjoy when you were younger.」——这是我今天最想记住的一句话。有时候最好的治愈，就是允许自己什么都不做。",
+      "translated_diary": "오늘은 2026-10-28입니다. 매우 가벼운 바람이 부는 매우 가벼운 날입니다. 키리는 오늘 모은 작은 조각들을 넘겨보며 \"가끔 어렸을 때 즐겨 먹던 과자를 먹어.\" --이것이 제가 오늘 가장 기억하고 싶은 명언입니다. 때로는 아무것도 하지 않는 것이 가장 좋은 치료법이 될 수 있습니다.",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-10-27",
       "log_path": "logs/2026/10/2026-10-27.md",
