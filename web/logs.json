@@ -1,6 +1,14 @@
 {
-  "generated_at_utc": "2026-11-10T21:49:31.574743+00:00",
+  "generated_at_utc": "2026-11-11T22:43:38.763146+00:00",
   "records": [
+    {
+      "date": "2026-11-11",
+      "log_path": "logs/2026/11/2026-11-11.md",
+      "mood_record": "Don't eat anything your grandparents wouldn't recognise as food.",
+      "zh_diary": "叮——2026-11-11的桐雾（Kiri）报道！伸个大大的懒腰，和今天的自己说嗨～The Black Death reduced the population of Europe by one third in the period from 1347 to 1351.明天也要元气满满哦！",
+      "translated_diary": "땡——2026년 11월 11일 키리(Kiri)의 리포트입니다! 크게 기지개를 펴고 오늘의 나에게 인사해요~ 흑사병은 1347년부터 1351년까지 유럽 인구를 3분의 1이나 감소시켰어요.내일도 활기차게 보내세요!",
+      "language_tag": "ZH + KO"
+    },
     {
       "date": "2026-11-10",
       "log_path": "logs/2026/11/2026-11-10.md",
